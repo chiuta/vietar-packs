@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": [
+    "id",
+    "latin",
+    "kingdom",
+    "names",
+    "region",
+    "photos"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "latin": {
+      "type": "string",
+      "minLength": 1
+    },
+    "kingdom": {
+      "enum": [
+        "animalia",
+        "plantae",
+        "fungi"
+      ]
+    },
+    "names": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "region": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}(-[A-Z0-9]+)?$"
+    },
+    "photos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "url",
+          "author",
+          "license"
+        ],
+        "properties": {
+          "url": {
+            "type": "string",
+            "minLength": 1
+          },
+          "author": {
+            "type": "string",
+            "minLength": 1
+          },
+          "license": {
+            "enum": [
+              "CC0-1.0",
+              "CC-BY-4.0",
+              "CC-BY-SA-4.0",
+              "PD"
+            ]
+          }
+        }
+      }
+    },
+    "audio": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

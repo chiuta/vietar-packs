@@ -1,0 +1,13 @@
+{
+  "projectName": "vietar-packs",
+  "projectOwner": "chiuta",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 80,
+  "commit": false,
+  "contributors": [],
+  "contributorsPerLine": 7
+}
