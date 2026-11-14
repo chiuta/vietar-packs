@@ -2,13 +2,27 @@
 
 **English** · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-Version: 0.1.0 · Last updated: 2026-11-13
+Version: 0.1.0 · Last updated: 2026-11-14
 
 🌐 https://vietar-packs.chiuta.ro
 
 > Regional species packs for VietAR: names, photos and sounds of local wildlife and plants.
 
 Trade-free: no tracking, no ads, no accounts, works offline.
+
+## Status
+
+Alpha: the repository holds the structure, the data schema or the first examples and the contribution guides. The scope below is the plan, not what works today.
+
+## Planned scope
+
+- A pack format specification: a `pack.json` manifest with region, version and count.
+- Species packs for Romania: about 30 mammals of the Carpathians with names in en/ro/hu/de, about 50 common birds with audio links (Xeno-canto, CC-BY), and about 40 wild plants and mushrooms with a `toxic` flag.
+- Pack skeletons for Bulgaria and Moldova with 20 species each.
+- A `look-alike` field linking dangerous species pairs.
+- Tooling: a photo licence checker against the Wikimedia Commons API, an image optimiser (WebP, max 640 px) and a guide for a school class to add a local pack.
+
+None of this is implemented yet: each item is a ready-made task in `ISSUES_GOOD_FIRST.md`.
 
 ## Contribute in 5 minutes
 
