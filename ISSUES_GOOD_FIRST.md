@@ -1,5 +1,7 @@
 # Good first issues
 
+**English** · [Română](ISSUES_GOOD_FIRST.ro.md) · [Français](ISSUES_GOOD_FIRST.fr.md) · [Italiano](ISSUES_GOOD_FIRST.it.md) · [Español](ISSUES_GOOD_FIRST.es.md) · [Português](ISSUES_GOOD_FIRST.pt.md) · [Deutsch](ISSUES_GOOD_FIRST.de.md) · [Magyar](ISSUES_GOOD_FIRST.hu.md)
+
 - [ ] Add 30 mammals of the Carpathians with names in en/ro/hu/de
 - [ ] Add 50 common birds of Romania with audio links (Xeno-canto, CC-BY)
 - [ ] Add 40 wild plants/mushrooms of Romania with a `toxic` boolean (extend schema)
