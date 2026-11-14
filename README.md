@@ -4,6 +4,8 @@
 
 Version: 0.1.0 · Last updated: 2026-11-13
 
+🌐 https://vietar-packs.chiuta.ro
+
 > Regional species packs for VietAR: names, photos and sounds of local wildlife and plants.
 
 Trade-free: no tracking, no ads, no accounts, works offline.

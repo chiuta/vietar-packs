@@ -4,6 +4,8 @@
 
 Version : 0.1.0 · Dernière mise à jour : 2026-11-13
 
+🌐 https://vietar-packs.chiuta.ro
+
 > Paquets régionaux d'espèces pour VietAR : noms, photos et sons de la faune et de la flore locales.
 
 Trade-free : sans suivi, sans publicité, sans compte, fonctionne hors ligne.

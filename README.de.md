@@ -4,6 +4,8 @@
 
 Version: 0.1.0 · Letzte Aktualisierung: 2026-11-13
 
+🌐 https://vietar-packs.chiuta.ro
+
 > Regionale Artenpakete für VietAR: Namen, Fotos und Laute lokaler Tiere und Pflanzen.
 
 Trade-free: kein Tracking, keine Werbung, keine Konten, funktioniert offline.

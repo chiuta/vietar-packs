@@ -4,6 +4,8 @@
 
 Verzió: 0.1.0 · Utolsó frissítés: 2026-11-13
 
+🌐 https://vietar-packs.chiuta.ro
+
 > Regionális fajcsomagok a VietAR-hoz: helyi állatok és növények nevei, fotói és hangjai.
 
 Trade-free: nincs követés, nincs reklám, nincs fiók, offline is működik.

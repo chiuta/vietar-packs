@@ -4,6 +4,8 @@
 
 Versiune: 0.1.0 · Ultima actualizare: 2026-11-13
 
+🌐 https://vietar-packs.chiuta.ro
+
 > Pachete regionale de specii pentru VietAR: nume, fotografii și sunete ale faunei și florei locale.
 
 Fără comerț (trade-free): fără urmărire, fără reclame, fără conturi, funcționează offline.
