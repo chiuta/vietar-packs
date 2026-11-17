@@ -1,0 +1,39 @@
+{
+  "id": "ro-birds",
+  "title": {
+    "en": "Birds of Romania (starter set)",
+    "ro": "Păsări din România (set de pornire)"
+  },
+  "description": {
+    "en": "A starter set of common and characteristic birds of Romania. Draft: the names were written with an AI assistant and have not yet been reviewed by an ornithologist or by native speakers. No sound recordings are linked yet.",
+    "ro": "Set de pornire cu păsări obișnuite și caracteristice din România. Ciornă: numele au fost scrise cu un asistent AI și nu au fost încă verificate de un ornitolog sau de vorbitori nativi. Nu sunt încă legate înregistrări de sunet."
+  },
+  "region": "RO",
+  "version": "0.1.0",
+  "updated": "2026-11-17",
+  "licence": "CC0-1.0",
+  "status": "draft",
+  "authors": [
+    "VietAR Packs contributors"
+  ],
+  "species": [
+    "aquila-chrysaetos",
+    "tetrao-urogallus",
+    "ciconia-ciconia",
+    "pelecanus-onocrotalus",
+    "parus-major",
+    "erithacus-rubecula",
+    "hirundo-rustica",
+    "cuculus-canorus",
+    "upupa-epops",
+    "turdus-merula",
+    "pica-pica",
+    "passer-domesticus",
+    "falco-tinnunculus",
+    "dendrocopos-major",
+    "corvus-corax",
+    "sturnus-vulgaris",
+    "garrulus-glandarius"
+  ],
+  "count": 17
+}

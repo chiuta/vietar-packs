@@ -1,0 +1,26 @@
+{
+  "id": "colchicum-autumnale",
+  "latin": "Colchicum autumnale",
+  "kingdom": "plantae",
+  "group": "herb",
+  "names": {
+    "en": "Meadow saffron",
+    "ro": "Brândușă de toamnă",
+    "hu": "Őszi kikerics",
+    "de": "Herbstzeitlose"
+  },
+  "toxic": true,
+  "toxic_note": {
+    "en": "Very poisonous: contains colchicine. Eating any part can be fatal.",
+    "ro": "Foarte otrăvitoare: conține colchicină. Consumul oricărei părți poate fi mortal."
+  },
+  "look_alike": [
+    {
+      "id": "allium-ursinum",
+      "note": {
+        "en": "The leaves can be mistaken for each other. Confusing them has caused serious poisonings.",
+        "ro": "Frunzele pot fi confundate. Confuzia a provocat intoxicații grave."
+      }
+    }
+  ]
+}

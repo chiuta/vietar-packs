@@ -1,0 +1,17 @@
+{
+  "slug": "vietar-packs",
+  "version": "0.2.0",
+  "updated": "2026-11-17",
+  "plugins": null,
+  "data": "data/dist",
+  "files": {
+    "SPECIES_SCHEMA": "schema.json",
+    "PACK_SCHEMA": "pack.schema.json"
+  },
+  "pwa": {
+    "categories": [
+      "education",
+      "utilities"
+    ]
+  }
+}

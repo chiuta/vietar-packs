@@ -1,0 +1,187 @@
+{
+  "format": "vietar-pack",
+  "format_version": 1,
+  "id": "xx-example",
+  "title": {
+    "en": "Example pack (not real data)",
+    "ro": "Pachet-exemplu (nu sunt date reale)",
+    "fr": "Pack d’exemple (données fictives)",
+    "de": "Beispielpaket (keine echten Daten)",
+    "es": "Paquete de ejemplo (no son datos reales)",
+    "it": "Pacchetto di esempio (non sono dati reali)",
+    "hu": "Példacsomag (nem valódi adatok)",
+    "pt": "Pacote de exemplo (não são dados reais)"
+  },
+  "description": {
+    "en": "Shows every field of the pack format. Copy it, change the id, region and species, and import it on the page.",
+    "ro": "Arată toate câmpurile formatului. Copiază-l, schimbă id-ul, regiunea și speciile și importă-l în pagină.",
+    "fr": "Montre tous les champs du format de pack. Copiez-le, changez l’identifiant, la région et les espèces, puis importez-le dans la page.",
+    "de": "Zeigt jedes Feld des Paketformats. Kopiere es, ändere Kennung, Region und Arten und importiere es auf der Seite.",
+    "es": "Muestra todos los campos del formato de paquete. Cópialo, cambia el identificador, la región y las especies, e impórtalo en la página.",
+    "it": "Mostra tutti i campi del formato dei pacchetti. Copialo, cambia l’identificativo, la regione e le specie e importalo nella pagina.",
+    "hu": "A csomagformátum minden mezőjét megmutatja. Másold le, változtasd meg az azonosítót, a régiót és a fajokat, majd importáld az oldalon.",
+    "pt": "Mostra todos os campos do formato dos pacotes. Copie-o, altere o identificador, a região e as espécies e importe-o na página."
+  },
+  "region": "XX",
+  "version": "0.1.0",
+  "updated": "2026-11-17",
+  "licence": "CC0-1.0",
+  "status": "skeleton",
+  "authors": [
+    "Example Author"
+  ],
+  "count": 5,
+  "species": [
+    {
+      "id": "lynx-lynx",
+      "latin": "Lynx lynx",
+      "kingdom": "animalia",
+      "group": "mammal",
+      "names": {
+        "en": "Eurasian lynx",
+        "ro": "Râs",
+        "hu": "Hiúz",
+        "de": "Luchs"
+      },
+      "notes": {
+        "en": "Example entry: add photos with their licence."
+      },
+      "source": "Example",
+      "photos": [
+        {
+          "data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVR4nGNQ6lYCAAGiANAIO/QDAAAAAElFTkSuQmCC",
+          "alt": {
+            "en": "Example image (one green pixel)"
+          },
+          "author": "Example Author",
+          "licence": "CC0-1.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Example.png"
+        }
+      ],
+      "audio": [
+        {
+          "url": "https://xeno-canto.org/123456",
+          "recordist": "Example Recordist",
+          "licence": "CC-BY-4.0",
+          "note": {
+            "en": "Example only: replace with a real recording."
+          }
+        }
+      ]
+    },
+    {
+      "id": "allium-ursinum",
+      "latin": "Allium ursinum",
+      "kingdom": "plantae",
+      "group": "herb",
+      "names": {
+        "en": "Ramsons (wild garlic)",
+        "ro": "Leurdă",
+        "hu": "Medvehagyma",
+        "de": "Bärlauch"
+      },
+      "toxic": false,
+      "look_alike": [
+        {
+          "id": "colchicum-autumnale",
+          "note": {
+            "en": "The leaves can be mistaken for each other. Confusing them has caused serious poisonings.",
+            "ro": "Frunzele pot fi confundate. Confuzia a provocat intoxicații grave."
+          }
+        },
+        {
+          "id": "convallaria-majalis",
+          "note": {
+            "en": "The leaves can be mistaken for each other. Confusing them has caused serious poisonings.",
+            "ro": "Frunzele pot fi confundate. Confuzia a provocat intoxicații grave."
+          }
+        },
+        {
+          "id": "arum-maculatum",
+          "note": {
+            "en": "The leaves can be mistaken for each other. Confusing them can cause poisoning.",
+            "ro": "Frunzele pot fi confundate. Confuzia poate provoca intoxicații."
+          }
+        }
+      ]
+    },
+    {
+      "id": "colchicum-autumnale",
+      "latin": "Colchicum autumnale",
+      "kingdom": "plantae",
+      "group": "herb",
+      "names": {
+        "en": "Meadow saffron",
+        "ro": "Brândușă de toamnă",
+        "hu": "Őszi kikerics",
+        "de": "Herbstzeitlose"
+      },
+      "toxic": true,
+      "toxic_note": {
+        "en": "Very poisonous: contains colchicine. Eating any part can be fatal.",
+        "ro": "Foarte otrăvitoare: conține colchicină. Consumul oricărei părți poate fi mortal."
+      },
+      "look_alike": [
+        {
+          "id": "allium-ursinum",
+          "note": {
+            "en": "The leaves can be mistaken for each other. Confusing them has caused serious poisonings.",
+            "ro": "Frunzele pot fi confundate. Confuzia a provocat intoxicații grave."
+          }
+        }
+      ]
+    },
+    {
+      "id": "convallaria-majalis",
+      "latin": "Convallaria majalis",
+      "kingdom": "plantae",
+      "group": "herb",
+      "names": {
+        "en": "Lily of the valley",
+        "ro": "Lăcrămioară",
+        "hu": "Gyöngyvirág",
+        "de": "Maiglöckchen"
+      },
+      "toxic": true,
+      "toxic_note": {
+        "en": "Poisonous in all parts: contains cardiac glycosides that can cause serious heart problems.",
+        "ro": "Otrăvitoare în toate părțile: conține glicozide cardiace care pot provoca probleme grave ale inimii."
+      },
+      "look_alike": [
+        {
+          "id": "allium-ursinum",
+          "note": {
+            "en": "The leaves can be mistaken for each other. Confusing them has caused serious poisonings.",
+            "ro": "Frunzele pot fi confundate. Confuzia a provocat intoxicații grave."
+          }
+        }
+      ]
+    },
+    {
+      "id": "arum-maculatum",
+      "latin": "Arum maculatum",
+      "kingdom": "plantae",
+      "group": "herb",
+      "names": {
+        "en": "Cuckoo-pint (lords-and-ladies)",
+        "ro": "Rodul-pământului",
+        "hu": "Foltos kontyvirág",
+        "de": "Gefleckter Aronstab"
+      },
+      "toxic": true,
+      "toxic_note": {
+        "en": "All parts contain calcium oxalate crystals, which cause intense burning and irritation of the mouth and throat if eaten.",
+        "ro": "Toate părțile conțin cristale de oxalat de calciu, care provoacă arsuri și iritații puternice ale gurii și gâtului dacă sunt consumate."
+      },
+      "look_alike": [
+        {
+          "id": "allium-ursinum",
+          "note": {
+            "en": "The leaves can be mistaken for each other. Confusing them can cause poisoning.",
+            "ro": "Frunzele pot fi confundate. Confuzia poate provoca intoxicații."
+          }
+        }
+      ]
+    }
+  ]
+}

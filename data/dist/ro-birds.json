@@ -1,0 +1,233 @@
+{
+  "format": "vietar-pack",
+  "format_version": 1,
+  "id": "ro-birds",
+  "title": {
+    "en": "Birds of Romania (starter set)",
+    "ro": "Păsări din România (set de pornire)"
+  },
+  "description": {
+    "en": "A starter set of common and characteristic birds of Romania. Draft: the names were written with an AI assistant and have not yet been reviewed by an ornithologist or by native speakers. No sound recordings are linked yet.",
+    "ro": "Set de pornire cu păsări obișnuite și caracteristice din România. Ciornă: numele au fost scrise cu un asistent AI și nu au fost încă verificate de un ornitolog sau de vorbitori nativi. Nu sunt încă legate înregistrări de sunet."
+  },
+  "region": "RO",
+  "version": "0.1.0",
+  "updated": "2026-11-17",
+  "licence": "CC0-1.0",
+  "status": "draft",
+  "authors": [
+    "VietAR Packs contributors"
+  ],
+  "count": 17,
+  "species": [
+    {
+      "id": "aquila-chrysaetos",
+      "latin": "Aquila chrysaetos",
+      "kingdom": "animalia",
+      "group": "bird",
+      "names": {
+        "en": "Golden eagle",
+        "ro": "Acvilă de munte",
+        "hu": "Szirti sas",
+        "de": "Steinadler"
+      }
+    },
+    {
+      "id": "tetrao-urogallus",
+      "latin": "Tetrao urogallus",
+      "kingdom": "animalia",
+      "group": "bird",
+      "names": {
+        "en": "Western capercaillie",
+        "ro": "Cocoș de munte",
+        "hu": "Siketfajd",
+        "de": "Auerhuhn"
+      }
+    },
+    {
+      "id": "ciconia-ciconia",
+      "latin": "Ciconia ciconia",
+      "kingdom": "animalia",
+      "group": "bird",
+      "names": {
+        "en": "White stork",
+        "ro": "Barză albă",
+        "hu": "Fehér gólya",
+        "de": "Weißstorch",
+        "bg": "Бял щъркел"
+      }
+    },
+    {
+      "id": "pelecanus-onocrotalus",
+      "latin": "Pelecanus onocrotalus",
+      "kingdom": "animalia",
+      "group": "bird",
+      "names": {
+        "en": "Great white pelican",
+        "ro": "Pelican comun",
+        "hu": "Rózsás pelikán",
+        "de": "Rosapelikan"
+      }
+    },
+    {
+      "id": "parus-major",
+      "latin": "Parus major",
+      "kingdom": "animalia",
+      "group": "bird",
+      "names": {
+        "en": "Great tit",
+        "ro": "Pițigoi mare",
+        "hu": "Széncinege",
+        "de": "Kohlmeise"
+      }
+    },
+    {
+      "id": "erithacus-rubecula",
+      "latin": "Erithacus rubecula",
+      "kingdom": "animalia",
+      "group": "bird",
+      "names": {
+        "en": "European robin",
+        "ro": "Măcăleandru",
+        "hu": "Vörösbegy",
+        "de": "Rotkehlchen"
+      }
+    },
+    {
+      "id": "hirundo-rustica",
+      "latin": "Hirundo rustica",
+      "kingdom": "animalia",
+      "group": "bird",
+      "names": {
+        "en": "Barn swallow",
+        "ro": "Rândunică",
+        "hu": "Füstifecske",
+        "de": "Rauchschwalbe",
+        "bg": "Селска лястовица"
+      }
+    },
+    {
+      "id": "cuculus-canorus",
+      "latin": "Cuculus canorus",
+      "kingdom": "animalia",
+      "group": "bird",
+      "names": {
+        "en": "Common cuckoo",
+        "ro": "Cuc",
+        "hu": "Kakukk",
+        "de": "Kuckuck",
+        "bg": "Обикновена кукувица"
+      }
+    },
+    {
+      "id": "upupa-epops",
+      "latin": "Upupa epops",
+      "kingdom": "animalia",
+      "group": "bird",
+      "names": {
+        "en": "Eurasian hoopoe",
+        "ro": "Pupăză",
+        "hu": "Búbosbanka",
+        "de": "Wiedehopf",
+        "bg": "Папуняк"
+      }
+    },
+    {
+      "id": "turdus-merula",
+      "latin": "Turdus merula",
+      "kingdom": "animalia",
+      "group": "bird",
+      "names": {
+        "en": "Common blackbird",
+        "ro": "Mierlă",
+        "hu": "Fekete rigó",
+        "de": "Amsel"
+      }
+    },
+    {
+      "id": "pica-pica",
+      "latin": "Pica pica",
+      "kingdom": "animalia",
+      "group": "bird",
+      "names": {
+        "en": "Eurasian magpie",
+        "ro": "Coțofană",
+        "hu": "Szarka",
+        "de": "Elster"
+      }
+    },
+    {
+      "id": "passer-domesticus",
+      "latin": "Passer domesticus",
+      "kingdom": "animalia",
+      "group": "bird",
+      "names": {
+        "en": "House sparrow",
+        "ro": "Vrabie de casă",
+        "hu": "Házi veréb",
+        "de": "Haussperling",
+        "bg": "Домашно врабче"
+      }
+    },
+    {
+      "id": "falco-tinnunculus",
+      "latin": "Falco tinnunculus",
+      "kingdom": "animalia",
+      "group": "bird",
+      "names": {
+        "en": "Common kestrel",
+        "ro": "Vânturel roșu",
+        "hu": "Vörös vércse",
+        "de": "Turmfalke"
+      }
+    },
+    {
+      "id": "dendrocopos-major",
+      "latin": "Dendrocopos major",
+      "kingdom": "animalia",
+      "group": "bird",
+      "names": {
+        "en": "Great spotted woodpecker",
+        "ro": "Ciocănitoare pestriță mare",
+        "hu": "Nagy fakopáncs",
+        "de": "Buntspecht"
+      }
+    },
+    {
+      "id": "corvus-corax",
+      "latin": "Corvus corax",
+      "kingdom": "animalia",
+      "group": "bird",
+      "names": {
+        "en": "Common raven",
+        "ro": "Corb",
+        "hu": "Holló",
+        "de": "Kolkrabe"
+      }
+    },
+    {
+      "id": "sturnus-vulgaris",
+      "latin": "Sturnus vulgaris",
+      "kingdom": "animalia",
+      "group": "bird",
+      "names": {
+        "en": "Common starling",
+        "ro": "Graur",
+        "hu": "Seregély",
+        "de": "Star"
+      }
+    },
+    {
+      "id": "garrulus-glandarius",
+      "latin": "Garrulus glandarius",
+      "kingdom": "animalia",
+      "group": "bird",
+      "names": {
+        "en": "Eurasian jay",
+        "ro": "Gaiță",
+        "hu": "Szajkó",
+        "de": "Eichelhäher"
+      }
+    }
+  ]
+}

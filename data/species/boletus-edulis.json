@@ -1,0 +1,13 @@
+{
+  "id": "boletus-edulis",
+  "latin": "Boletus edulis",
+  "kingdom": "fungi",
+  "group": "fungus",
+  "names": {
+    "en": "Porcini (king bolete)",
+    "ro": "Hrib",
+    "hu": "Ízletes vargánya",
+    "de": "Gemeiner Steinpilz"
+  },
+  "toxic": false
+}

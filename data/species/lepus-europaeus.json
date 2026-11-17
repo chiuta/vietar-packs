@@ -1,0 +1,13 @@
+{
+  "id": "lepus-europaeus",
+  "latin": "Lepus europaeus",
+  "kingdom": "animalia",
+  "group": "mammal",
+  "names": {
+    "en": "European hare",
+    "ro": "Iepure de câmp",
+    "hu": "Mezei nyúl",
+    "de": "Feldhase",
+    "bg": "Полски заек"
+  }
+}

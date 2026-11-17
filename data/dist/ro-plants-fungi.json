@@ -1,0 +1,429 @@
+{
+  "format": "vietar-pack",
+  "format_version": 1,
+  "id": "ro-plants-fungi",
+  "title": {
+    "en": "Wild plants and mushrooms of Romania (starter set)",
+    "ro": "Plante sălbatice și ciuperci din România (set de pornire)"
+  },
+  "description": {
+    "en": "A starter set that stresses poisonous species and dangerous look-alikes. Draft: not reviewed by a botanist, a mycologist or a poison centre. Never eat a wild plant or mushroom on the strength of this pack.",
+    "ro": "Set de pornire care pune accent pe speciile otrăvitoare și pe asemănările periculoase. Ciornă: neverificat de botanist, micolog sau centru antiotravă. Nu consuma niciodată o plantă sau o ciupercă sălbatică pe baza acestui pachet."
+  },
+  "region": "RO",
+  "version": "0.1.0",
+  "updated": "2026-11-17",
+  "licence": "CC0-1.0",
+  "status": "draft",
+  "authors": [
+    "VietAR Packs contributors"
+  ],
+  "count": 19,
+  "species": [
+    {
+      "id": "galanthus-nivalis",
+      "latin": "Galanthus nivalis",
+      "kingdom": "plantae",
+      "group": "herb",
+      "names": {
+        "en": "Snowdrop",
+        "ro": "Ghiocel",
+        "hu": "Kikeleti hóvirág",
+        "de": "Schneeglöckchen"
+      },
+      "toxic": true,
+      "toxic_note": {
+        "en": "All parts, especially the bulb, can cause nausea, vomiting and diarrhoea if eaten.",
+        "ro": "Toate părțile plantei, mai ales bulbul, pot provoca greață, vărsături și diaree dacă sunt consumate."
+      }
+    },
+    {
+      "id": "colchicum-autumnale",
+      "latin": "Colchicum autumnale",
+      "kingdom": "plantae",
+      "group": "herb",
+      "names": {
+        "en": "Meadow saffron",
+        "ro": "Brândușă de toamnă",
+        "hu": "Őszi kikerics",
+        "de": "Herbstzeitlose"
+      },
+      "toxic": true,
+      "toxic_note": {
+        "en": "Very poisonous: contains colchicine. Eating any part can be fatal.",
+        "ro": "Foarte otrăvitoare: conține colchicină. Consumul oricărei părți poate fi mortal."
+      },
+      "look_alike": [
+        {
+          "id": "allium-ursinum",
+          "note": {
+            "en": "The leaves can be mistaken for each other. Confusing them has caused serious poisonings.",
+            "ro": "Frunzele pot fi confundate. Confuzia a provocat intoxicații grave."
+          }
+        }
+      ]
+    },
+    {
+      "id": "allium-ursinum",
+      "latin": "Allium ursinum",
+      "kingdom": "plantae",
+      "group": "herb",
+      "names": {
+        "en": "Ramsons (wild garlic)",
+        "ro": "Leurdă",
+        "hu": "Medvehagyma",
+        "de": "Bärlauch"
+      },
+      "toxic": false,
+      "look_alike": [
+        {
+          "id": "colchicum-autumnale",
+          "note": {
+            "en": "The leaves can be mistaken for each other. Confusing them has caused serious poisonings.",
+            "ro": "Frunzele pot fi confundate. Confuzia a provocat intoxicații grave."
+          }
+        },
+        {
+          "id": "convallaria-majalis",
+          "note": {
+            "en": "The leaves can be mistaken for each other. Confusing them has caused serious poisonings.",
+            "ro": "Frunzele pot fi confundate. Confuzia a provocat intoxicații grave."
+          }
+        },
+        {
+          "id": "arum-maculatum",
+          "note": {
+            "en": "The leaves can be mistaken for each other. Confusing them can cause poisoning.",
+            "ro": "Frunzele pot fi confundate. Confuzia poate provoca intoxicații."
+          }
+        }
+      ]
+    },
+    {
+      "id": "convallaria-majalis",
+      "latin": "Convallaria majalis",
+      "kingdom": "plantae",
+      "group": "herb",
+      "names": {
+        "en": "Lily of the valley",
+        "ro": "Lăcrămioară",
+        "hu": "Gyöngyvirág",
+        "de": "Maiglöckchen"
+      },
+      "toxic": true,
+      "toxic_note": {
+        "en": "Poisonous in all parts: contains cardiac glycosides that can cause serious heart problems.",
+        "ro": "Otrăvitoare în toate părțile: conține glicozide cardiace care pot provoca probleme grave ale inimii."
+      },
+      "look_alike": [
+        {
+          "id": "allium-ursinum",
+          "note": {
+            "en": "The leaves can be mistaken for each other. Confusing them has caused serious poisonings.",
+            "ro": "Frunzele pot fi confundate. Confuzia a provocat intoxicații grave."
+          }
+        }
+      ]
+    },
+    {
+      "id": "arum-maculatum",
+      "latin": "Arum maculatum",
+      "kingdom": "plantae",
+      "group": "herb",
+      "names": {
+        "en": "Cuckoo-pint (lords-and-ladies)",
+        "ro": "Rodul-pământului",
+        "hu": "Foltos kontyvirág",
+        "de": "Gefleckter Aronstab"
+      },
+      "toxic": true,
+      "toxic_note": {
+        "en": "All parts contain calcium oxalate crystals, which cause intense burning and irritation of the mouth and throat if eaten.",
+        "ro": "Toate părțile conțin cristale de oxalat de calciu, care provoacă arsuri și iritații puternice ale gurii și gâtului dacă sunt consumate."
+      },
+      "look_alike": [
+        {
+          "id": "allium-ursinum",
+          "note": {
+            "en": "The leaves can be mistaken for each other. Confusing them can cause poisoning.",
+            "ro": "Frunzele pot fi confundate. Confuzia poate provoca intoxicații."
+          }
+        }
+      ]
+    },
+    {
+      "id": "atropa-belladonna",
+      "latin": "Atropa belladonna",
+      "kingdom": "plantae",
+      "group": "herb",
+      "names": {
+        "en": "Deadly nightshade",
+        "ro": "Mătrăgună",
+        "hu": "Nadragulya",
+        "de": "Tollkirsche"
+      },
+      "toxic": true,
+      "toxic_note": {
+        "en": "Very poisonous in all parts, especially the berries. Even a small amount can be fatal, especially for children.",
+        "ro": "Foarte otrăvitoare în toate părțile, mai ales fructele. Chiar și o cantitate mică poate fi mortală, mai ales pentru copii."
+      }
+    },
+    {
+      "id": "conium-maculatum",
+      "latin": "Conium maculatum",
+      "kingdom": "plantae",
+      "group": "herb",
+      "names": {
+        "en": "Poison hemlock",
+        "ro": "Cucută",
+        "hu": "Foltos bürök",
+        "de": "Gefleckter Schierling"
+      },
+      "toxic": true,
+      "toxic_note": {
+        "en": "Extremely poisonous in all parts: contains coniine. Eating even a small amount can be fatal.",
+        "ro": "Extrem de otrăvitoare în toate părțile: conține coniină. Chiar și o cantitate mică poate fi mortală."
+      },
+      "look_alike": [
+        {
+          "id": "daucus-carota",
+          "note": {
+            "en": "Poison hemlock can be mistaken for wild carrot, parsley and other plants of the same family. Confusion has caused fatal poisonings.",
+            "ro": "Cucuta poate fi confundată cu morcovul sălbatic, pătrunjelul și alte plante din aceeași familie. Confuzia a provocat intoxicații mortale."
+          }
+        }
+      ]
+    },
+    {
+      "id": "daucus-carota",
+      "latin": "Daucus carota",
+      "kingdom": "plantae",
+      "group": "herb",
+      "names": {
+        "en": "Wild carrot",
+        "ro": "Morcov sălbatic",
+        "hu": "Vadmurok",
+        "de": "Wilde Möhre"
+      },
+      "toxic": false,
+      "look_alike": [
+        {
+          "id": "conium-maculatum",
+          "note": {
+            "en": "Poison hemlock can be mistaken for wild carrot, parsley and other plants of the same family. Confusion has caused fatal poisonings.",
+            "ro": "Cucuta poate fi confundată cu morcovul sălbatic, pătrunjelul și alte plante din aceeași familie. Confuzia a provocat intoxicații mortale."
+          }
+        }
+      ]
+    },
+    {
+      "id": "taxus-baccata",
+      "latin": "Taxus baccata",
+      "kingdom": "plantae",
+      "group": "tree",
+      "names": {
+        "en": "European yew",
+        "ro": "Tisă",
+        "hu": "Közönséges tiszafa",
+        "de": "Europäische Eibe"
+      },
+      "toxic": true,
+      "toxic_note": {
+        "en": "Very poisonous: leaves, bark and seeds contain taxine and can be fatal.",
+        "ro": "Foarte otrăvitoare: frunzele, scoarța și semințele conțin taxină și pot fi mortale."
+      }
+    },
+    {
+      "id": "gentiana-lutea",
+      "latin": "Gentiana lutea",
+      "kingdom": "plantae",
+      "group": "herb",
+      "names": {
+        "en": "Great yellow gentian",
+        "ro": "Ghințură galbenă",
+        "hu": "Sárga tárnics",
+        "de": "Gelber Enzian"
+      },
+      "toxic": false,
+      "look_alike": [
+        {
+          "id": "veratrum-album",
+          "note": {
+            "en": "Before flowering, the leaves look alike. White false hellebore is highly poisonous, and confusing them has caused serious poisonings.",
+            "ro": "Înainte de înflorire, frunzele seamănă. Steregoaia este foarte otrăvitoare, iar confuzia a provocat intoxicații grave."
+          }
+        }
+      ]
+    },
+    {
+      "id": "veratrum-album",
+      "latin": "Veratrum album",
+      "kingdom": "plantae",
+      "group": "herb",
+      "names": {
+        "en": "White false hellebore",
+        "ro": "Steregoaie",
+        "hu": "Fehér zászpa",
+        "de": "Weißer Germer"
+      },
+      "toxic": true,
+      "toxic_note": {
+        "en": "Very poisonous in all parts: contains alkaloids that can cause severe heart and circulation problems.",
+        "ro": "Foarte otrăvitoare în toate părțile: conține alcaloizi care pot provoca probleme grave ale inimii și circulației."
+      },
+      "look_alike": [
+        {
+          "id": "gentiana-lutea",
+          "note": {
+            "en": "Before flowering, the leaves look alike. White false hellebore is highly poisonous, and confusing them has caused serious poisonings.",
+            "ro": "Înainte de înflorire, frunzele seamănă. Steregoaia este foarte otrăvitoare, iar confuzia a provocat intoxicații grave."
+          }
+        }
+      ]
+    },
+    {
+      "id": "datura-stramonium",
+      "latin": "Datura stramonium",
+      "kingdom": "plantae",
+      "group": "herb",
+      "names": {
+        "en": "Jimsonweed",
+        "ro": "Ciumăfaie",
+        "hu": "Csattanó maszlag",
+        "de": "Gemeiner Stechapfel"
+      },
+      "toxic": true,
+      "toxic_note": {
+        "en": "Very poisonous: all parts contain tropane alkaloids; poisoning causes confusion and hallucinations and can be fatal.",
+        "ro": "Foarte otrăvitoare: toate părțile conțin alcaloizi tropanici; otrăvirea provoacă confuzie și halucinații și poate fi mortală."
+      }
+    },
+    {
+      "id": "hyoscyamus-niger",
+      "latin": "Hyoscyamus niger",
+      "kingdom": "plantae",
+      "group": "herb",
+      "names": {
+        "en": "Black henbane",
+        "ro": "Măselariță",
+        "hu": "Fekete beléndek",
+        "de": "Schwarzes Bilsenkraut"
+      },
+      "toxic": true,
+      "toxic_note": {
+        "en": "Very poisonous: contains tropane alkaloids; poisoning causes confusion and hallucinations and can be fatal.",
+        "ro": "Foarte otrăvitoare: conține alcaloizi tropanici; otrăvirea provoacă confuzie și halucinații și poate fi mortală."
+      }
+    },
+    {
+      "id": "amanita-phalloides",
+      "latin": "Amanita phalloides",
+      "kingdom": "fungi",
+      "group": "fungus",
+      "names": {
+        "en": "Death cap",
+        "ro": "Buretele viperei",
+        "hu": "Gyilkos galóca",
+        "de": "Grüner Knollenblätterpilz"
+      },
+      "toxic": true,
+      "toxic_note": {
+        "en": "Deadly poisonous: contains amatoxins, which are not destroyed by cooking. Symptoms can appear only after many hours, and the poisoning can cause fatal liver failure.",
+        "ro": "Mortal de otrăvitoare: conține amatoxine, care nu sunt distruse prin gătire. Simptomele pot apărea abia după multe ore, iar intoxicația poate duce la insuficiență hepatică mortală."
+      },
+      "look_alike": [
+        {
+          "id": "agaricus-campestris",
+          "note": {
+            "en": "Young death caps can be mistaken for field mushrooms. Confusion has caused fatal poisonings.",
+            "ro": "Buretele viperei tânăr poate fi confundat cu ciuperca de câmp. Confuzia a provocat intoxicații mortale."
+          }
+        }
+      ]
+    },
+    {
+      "id": "agaricus-campestris",
+      "latin": "Agaricus campestris",
+      "kingdom": "fungi",
+      "group": "fungus",
+      "names": {
+        "en": "Field mushroom",
+        "ro": "Champignon de câmp",
+        "hu": "Mezei csiperke",
+        "de": "Wiesen-Champignon"
+      },
+      "toxic": false,
+      "look_alike": [
+        {
+          "id": "amanita-phalloides",
+          "note": {
+            "en": "Young death caps can be mistaken for field mushrooms. Confusion has caused fatal poisonings.",
+            "ro": "Buretele viperei tânăr poate fi confundat cu ciuperca de câmp. Confuzia a provocat intoxicații mortale."
+          }
+        }
+      ]
+    },
+    {
+      "id": "amanita-muscaria",
+      "latin": "Amanita muscaria",
+      "kingdom": "fungi",
+      "group": "fungus",
+      "names": {
+        "en": "Fly agaric",
+        "ro": "Buretele muștelor",
+        "hu": "Légyölő galóca",
+        "de": "Fliegenpilz"
+      },
+      "toxic": true,
+      "toxic_note": {
+        "en": "Poisonous: contains ibotenic acid and muscimol; poisoning causes confusion, vomiting and hallucinations.",
+        "ro": "Otrăvitoare: conține acid ibotenic și muscimol; otrăvirea provoacă confuzie, vărsături și halucinații."
+      }
+    },
+    {
+      "id": "galerina-marginata",
+      "latin": "Galerina marginata",
+      "kingdom": "fungi",
+      "group": "fungus",
+      "names": {
+        "en": "Funeral bell",
+        "de": "Gift-Häubling"
+      },
+      "toxic": true,
+      "toxic_note": {
+        "en": "Deadly poisonous: contains the same kind of toxins as the death cap.",
+        "ro": "Mortal de otrăvitoare: conține același fel de toxine ca buretele viperei."
+      },
+      "notes": {
+        "en": "Grows on dead wood. It has been mistaken for edible mushrooms that also grow on wood, with serious poisonings as a result.",
+        "ro": "Crește pe lemn mort. A fost confundată cu ciuperci comestibile care cresc tot pe lemn, cu intoxicații grave ca urmare."
+      }
+    },
+    {
+      "id": "cantharellus-cibarius",
+      "latin": "Cantharellus cibarius",
+      "kingdom": "fungi",
+      "group": "fungus",
+      "names": {
+        "en": "Golden chanterelle",
+        "ro": "Gălbiori",
+        "hu": "Sárga rókagomba",
+        "de": "Pfifferling"
+      },
+      "toxic": false
+    },
+    {
+      "id": "boletus-edulis",
+      "latin": "Boletus edulis",
+      "kingdom": "fungi",
+      "group": "fungus",
+      "names": {
+        "en": "Porcini (king bolete)",
+        "ro": "Hrib",
+        "hu": "Ízletes vargánya",
+        "de": "Gemeiner Steinpilz"
+      },
+      "toxic": false
+    }
+  ]
+}

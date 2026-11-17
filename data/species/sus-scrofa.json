@@ -1,0 +1,13 @@
+{
+  "id": "sus-scrofa",
+  "latin": "Sus scrofa",
+  "kingdom": "animalia",
+  "group": "mammal",
+  "names": {
+    "en": "Wild boar",
+    "ro": "Mistreț",
+    "hu": "Vaddisznó",
+    "de": "Wildschwein",
+    "bg": "Дива свиня"
+  }
+}

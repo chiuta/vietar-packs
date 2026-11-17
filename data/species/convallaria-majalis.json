@@ -1,0 +1,26 @@
+{
+  "id": "convallaria-majalis",
+  "latin": "Convallaria majalis",
+  "kingdom": "plantae",
+  "group": "herb",
+  "names": {
+    "en": "Lily of the valley",
+    "ro": "Lăcrămioară",
+    "hu": "Gyöngyvirág",
+    "de": "Maiglöckchen"
+  },
+  "toxic": true,
+  "toxic_note": {
+    "en": "Poisonous in all parts: contains cardiac glycosides that can cause serious heart problems.",
+    "ro": "Otrăvitoare în toate părțile: conține glicozide cardiace care pot provoca probleme grave ale inimii."
+  },
+  "look_alike": [
+    {
+      "id": "allium-ursinum",
+      "note": {
+        "en": "The leaves can be mistaken for each other. Confusing them has caused serious poisonings.",
+        "ro": "Frunzele pot fi confundate. Confuzia a provocat intoxicații grave."
+      }
+    }
+  ]
+}

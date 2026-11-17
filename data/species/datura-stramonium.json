@@ -1,0 +1,17 @@
+{
+  "id": "datura-stramonium",
+  "latin": "Datura stramonium",
+  "kingdom": "plantae",
+  "group": "herb",
+  "names": {
+    "en": "Jimsonweed",
+    "ro": "Ciumăfaie",
+    "hu": "Csattanó maszlag",
+    "de": "Gemeiner Stechapfel"
+  },
+  "toxic": true,
+  "toxic_note": {
+    "en": "Very poisonous: all parts contain tropane alkaloids; poisoning causes confusion and hallucinations and can be fatal.",
+    "ro": "Foarte otrăvitoare: toate părțile conțin alcaloizi tropanici; otrăvirea provoacă confuzie și halucinații și poate fi mortală."
+  }
+}

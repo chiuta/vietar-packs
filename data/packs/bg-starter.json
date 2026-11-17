@@ -1,0 +1,32 @@
+{
+  "id": "bg-starter",
+  "title": {
+    "en": "Bulgaria: starter skeleton",
+    "ro": "Bulgaria: schelet de pornire"
+  },
+  "description": {
+    "en": "A skeleton with ten widespread species to be extended by contributors from Bulgaria, with Bulgarian names. Draft: not reviewed by native speakers.",
+    "ro": "Schelet cu zece specii răspândite, de extins de colaboratori din Bulgaria, cu nume bulgărești. Ciornă: neverificat de vorbitori nativi."
+  },
+  "region": "BG",
+  "version": "0.1.0",
+  "updated": "2026-11-17",
+  "licence": "CC0-1.0",
+  "status": "skeleton",
+  "authors": [
+    "VietAR Packs contributors"
+  ],
+  "species": [
+    "vulpes-vulpes",
+    "sus-scrofa",
+    "capreolus-capreolus",
+    "meles-meles",
+    "lepus-europaeus",
+    "ciconia-ciconia",
+    "hirundo-rustica",
+    "cuculus-canorus",
+    "upupa-epops",
+    "passer-domesticus"
+  ],
+  "count": 10
+}

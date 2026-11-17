@@ -1,0 +1,22 @@
+{
+  "id": "daucus-carota",
+  "latin": "Daucus carota",
+  "kingdom": "plantae",
+  "group": "herb",
+  "names": {
+    "en": "Wild carrot",
+    "ro": "Morcov sălbatic",
+    "hu": "Vadmurok",
+    "de": "Wilde Möhre"
+  },
+  "toxic": false,
+  "look_alike": [
+    {
+      "id": "conium-maculatum",
+      "note": {
+        "en": "Poison hemlock can be mistaken for wild carrot, parsley and other plants of the same family. Confusion has caused fatal poisonings.",
+        "ro": "Cucuta poate fi confundată cu morcovul sălbatic, pătrunjelul și alte plante din aceeași familie. Confuzia a provocat intoxicații mortale."
+      }
+    }
+  ]
+}

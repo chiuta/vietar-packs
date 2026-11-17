@@ -1,0 +1,17 @@
+{
+  "id": "atropa-belladonna",
+  "latin": "Atropa belladonna",
+  "kingdom": "plantae",
+  "group": "herb",
+  "names": {
+    "en": "Deadly nightshade",
+    "ro": "Mătrăgună",
+    "hu": "Nadragulya",
+    "de": "Tollkirsche"
+  },
+  "toxic": true,
+  "toxic_note": {
+    "en": "Very poisonous in all parts, especially the berries. Even a small amount can be fatal, especially for children.",
+    "ro": "Foarte otrăvitoare în toate părțile, mai ales fructele. Chiar și o cantitate mică poate fi mortală, mai ales pentru copii."
+  }
+}

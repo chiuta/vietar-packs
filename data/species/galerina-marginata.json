@@ -1,0 +1,19 @@
+{
+  "id": "galerina-marginata",
+  "latin": "Galerina marginata",
+  "kingdom": "fungi",
+  "group": "fungus",
+  "names": {
+    "en": "Funeral bell",
+    "de": "Gift-Häubling"
+  },
+  "toxic": true,
+  "toxic_note": {
+    "en": "Deadly poisonous: contains the same kind of toxins as the death cap.",
+    "ro": "Mortal de otrăvitoare: conține același fel de toxine ca buretele viperei."
+  },
+  "notes": {
+    "en": "Grows on dead wood. It has been mistaken for edible mushrooms that also grow on wood, with serious poisonings as a result.",
+    "ro": "Crește pe lemn mort. A fost confundată cu ciuperci comestibile care cresc tot pe lemn, cu intoxicații grave ca urmare."
+  }
+}

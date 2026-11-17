@@ -1,0 +1,41 @@
+{
+  "id": "ro-plants-fungi",
+  "title": {
+    "en": "Wild plants and mushrooms of Romania (starter set)",
+    "ro": "Plante sălbatice și ciuperci din România (set de pornire)"
+  },
+  "description": {
+    "en": "A starter set that stresses poisonous species and dangerous look-alikes. Draft: not reviewed by a botanist, a mycologist or a poison centre. Never eat a wild plant or mushroom on the strength of this pack.",
+    "ro": "Set de pornire care pune accent pe speciile otrăvitoare și pe asemănările periculoase. Ciornă: neverificat de botanist, micolog sau centru antiotravă. Nu consuma niciodată o plantă sau o ciupercă sălbatică pe baza acestui pachet."
+  },
+  "region": "RO",
+  "version": "0.1.0",
+  "updated": "2026-11-17",
+  "licence": "CC0-1.0",
+  "status": "draft",
+  "authors": [
+    "VietAR Packs contributors"
+  ],
+  "species": [
+    "galanthus-nivalis",
+    "colchicum-autumnale",
+    "allium-ursinum",
+    "convallaria-majalis",
+    "arum-maculatum",
+    "atropa-belladonna",
+    "conium-maculatum",
+    "daucus-carota",
+    "taxus-baccata",
+    "gentiana-lutea",
+    "veratrum-album",
+    "datura-stramonium",
+    "hyoscyamus-niger",
+    "amanita-phalloides",
+    "agaricus-campestris",
+    "amanita-muscaria",
+    "galerina-marginata",
+    "cantharellus-cibarius",
+    "boletus-edulis"
+  ],
+  "count": 19
+}

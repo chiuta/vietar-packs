@@ -1,0 +1,154 @@
+{
+  "format": "vietar-pack",
+  "format_version": 1,
+  "id": "bg-starter",
+  "title": {
+    "en": "Bulgaria: starter skeleton",
+    "ro": "Bulgaria: schelet de pornire"
+  },
+  "description": {
+    "en": "A skeleton with ten widespread species to be extended by contributors from Bulgaria, with Bulgarian names. Draft: not reviewed by native speakers.",
+    "ro": "Schelet cu zece specii răspândite, de extins de colaboratori din Bulgaria, cu nume bulgărești. Ciornă: neverificat de vorbitori nativi."
+  },
+  "region": "BG",
+  "version": "0.1.0",
+  "updated": "2026-11-17",
+  "licence": "CC0-1.0",
+  "status": "skeleton",
+  "authors": [
+    "VietAR Packs contributors"
+  ],
+  "count": 10,
+  "species": [
+    {
+      "id": "vulpes-vulpes",
+      "latin": "Vulpes vulpes",
+      "kingdom": "animalia",
+      "group": "mammal",
+      "names": {
+        "en": "Red fox",
+        "ro": "Vulpe",
+        "hu": "Vörös róka",
+        "de": "Rotfuchs",
+        "bg": "Червена лисица"
+      }
+    },
+    {
+      "id": "sus-scrofa",
+      "latin": "Sus scrofa",
+      "kingdom": "animalia",
+      "group": "mammal",
+      "names": {
+        "en": "Wild boar",
+        "ro": "Mistreț",
+        "hu": "Vaddisznó",
+        "de": "Wildschwein",
+        "bg": "Дива свиня"
+      }
+    },
+    {
+      "id": "capreolus-capreolus",
+      "latin": "Capreolus capreolus",
+      "kingdom": "animalia",
+      "group": "mammal",
+      "names": {
+        "en": "Roe deer",
+        "ro": "Căprior",
+        "hu": "Őz",
+        "de": "Reh",
+        "bg": "Сърна"
+      }
+    },
+    {
+      "id": "meles-meles",
+      "latin": "Meles meles",
+      "kingdom": "animalia",
+      "group": "mammal",
+      "names": {
+        "en": "European badger",
+        "ro": "Bursuc",
+        "hu": "Borz",
+        "de": "Dachs",
+        "bg": "Язовец"
+      }
+    },
+    {
+      "id": "lepus-europaeus",
+      "latin": "Lepus europaeus",
+      "kingdom": "animalia",
+      "group": "mammal",
+      "names": {
+        "en": "European hare",
+        "ro": "Iepure de câmp",
+        "hu": "Mezei nyúl",
+        "de": "Feldhase",
+        "bg": "Полски заек"
+      }
+    },
+    {
+      "id": "ciconia-ciconia",
+      "latin": "Ciconia ciconia",
+      "kingdom": "animalia",
+      "group": "bird",
+      "names": {
+        "en": "White stork",
+        "ro": "Barză albă",
+        "hu": "Fehér gólya",
+        "de": "Weißstorch",
+        "bg": "Бял щъркел"
+      }
+    },
+    {
+      "id": "hirundo-rustica",
+      "latin": "Hirundo rustica",
+      "kingdom": "animalia",
+      "group": "bird",
+      "names": {
+        "en": "Barn swallow",
+        "ro": "Rândunică",
+        "hu": "Füstifecske",
+        "de": "Rauchschwalbe",
+        "bg": "Селска лястовица"
+      }
+    },
+    {
+      "id": "cuculus-canorus",
+      "latin": "Cuculus canorus",
+      "kingdom": "animalia",
+      "group": "bird",
+      "names": {
+        "en": "Common cuckoo",
+        "ro": "Cuc",
+        "hu": "Kakukk",
+        "de": "Kuckuck",
+        "bg": "Обикновена кукувица"
+      }
+    },
+    {
+      "id": "upupa-epops",
+      "latin": "Upupa epops",
+      "kingdom": "animalia",
+      "group": "bird",
+      "names": {
+        "en": "Eurasian hoopoe",
+        "ro": "Pupăză",
+        "hu": "Búbosbanka",
+        "de": "Wiedehopf",
+        "bg": "Папуняк"
+      }
+    },
+    {
+      "id": "passer-domesticus",
+      "latin": "Passer domesticus",
+      "kingdom": "animalia",
+      "group": "bird",
+      "names": {
+        "en": "House sparrow",
+        "ro": "Vrabie de casă",
+        "hu": "Házi veréb",
+        "de": "Haussperling",
+        "bg": "Домашно врабче"
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cuculus-canorus",
+  "latin": "Cuculus canorus",
+  "kingdom": "animalia",
+  "group": "bird",
+  "names": {
+    "en": "Common cuckoo",
+    "ro": "Cuc",
+    "hu": "Kakukk",
+    "de": "Kuckuck",
+    "bg": "Обикновена кукувица"
+  }
+}

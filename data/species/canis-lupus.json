@@ -1,0 +1,12 @@
+{
+  "id": "canis-lupus",
+  "latin": "Canis lupus",
+  "kingdom": "animalia",
+  "group": "mammal",
+  "names": {
+    "en": "Grey wolf",
+    "ro": "Lup",
+    "hu": "Farkas",
+    "de": "Wolf"
+  }
+}

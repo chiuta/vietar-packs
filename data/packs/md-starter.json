@@ -1,0 +1,32 @@
+{
+  "id": "md-starter",
+  "title": {
+    "en": "Moldova: starter skeleton",
+    "ro": "Moldova: schelet de pornire"
+  },
+  "description": {
+    "en": "A skeleton with ten widespread species to be extended by contributors from Moldova. Draft: not reviewed by native speakers.",
+    "ro": "Schelet cu zece specii răspândite, de extins de colaboratori din Moldova. Ciornă: neverificat de vorbitori nativi."
+  },
+  "region": "MD",
+  "version": "0.1.0",
+  "updated": "2026-11-17",
+  "licence": "CC0-1.0",
+  "status": "skeleton",
+  "authors": [
+    "VietAR Packs contributors"
+  ],
+  "species": [
+    "vulpes-vulpes",
+    "sus-scrofa",
+    "capreolus-capreolus",
+    "meles-meles",
+    "lepus-europaeus",
+    "ciconia-ciconia",
+    "hirundo-rustica",
+    "cuculus-canorus",
+    "upupa-epops",
+    "passer-domesticus"
+  ],
+  "count": 10
+}

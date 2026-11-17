@@ -1,0 +1,17 @@
+{
+  "id": "taxus-baccata",
+  "latin": "Taxus baccata",
+  "kingdom": "plantae",
+  "group": "tree",
+  "names": {
+    "en": "European yew",
+    "ro": "Tisă",
+    "hu": "Közönséges tiszafa",
+    "de": "Europäische Eibe"
+  },
+  "toxic": true,
+  "toxic_note": {
+    "en": "Very poisonous: leaves, bark and seeds contain taxine and can be fatal.",
+    "ro": "Foarte otrăvitoare: frunzele, scoarța și semințele conțin taxină și pot fi mortale."
+  }
+}

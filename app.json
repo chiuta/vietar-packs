@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "slug": "vietar-packs",
+  "name": "VietAR Packs — Regional species packs for VietAR: names, photos and sounds of local wildlife and plants",
+  "version": "0.2.0",
+  "updated": "2026-11-17",
+  "description": "Regional species packs for VietAR: names, photos and sounds of local wildlife and plants",
+  "egress": [],
+  "permissions": [
+    "clipboard",
+    "serviceWorker",
+    "localStorage",
+    "WebGL"
+  ],
+  "storageKeys": [
+    "vietar-packs.packs"
+  ],
+  "sizeBytes": 509548,
+  "sha256": "6ff11876552d43cd7d23ff8a547c817e50c1de58cfaac5865edd552a89b4a419",
+  "csp": {
+    "present": true,
+    "directives": {
+      "default-src": "'none'",
+      "script-src": "sha256×7",
+      "style-src": "sha256×3",
+      "img-src": "'self' data:",
+      "base-uri": "'none'",
+      "form-action": "'none'",
+      "manifest-src": "'self'",
+      "worker-src": "'self'"
+    },
+    "scriptInline": "hash",
+    "connect": "'none'"
+  },
+  "features": {
+    "export": true,
+    "import": true,
+    "i18n": [
+      "ro",
+      "en",
+      "fr",
+      "it",
+      "es",
+      "pt",
+      "hu",
+      "de"
+    ],
+    "pwa": {
+      "manifest": true,
+      "serviceWorker": true
+    },
+    "modules": [
+      "core",
+      "store",
+      "view",
+      "a11y",
+      "share"
+    ]
+  },
+  "kit": {
+    "version": "1.8.0",
+    "modules": [
+      "core",
+      "store",
+      "view",
+      "a11y",
+      "share"
+    ]
+  },
+  "selfSerializing": false
+}

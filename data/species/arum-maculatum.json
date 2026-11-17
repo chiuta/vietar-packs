@@ -1,0 +1,26 @@
+{
+  "id": "arum-maculatum",
+  "latin": "Arum maculatum",
+  "kingdom": "plantae",
+  "group": "herb",
+  "names": {
+    "en": "Cuckoo-pint (lords-and-ladies)",
+    "ro": "Rodul-pământului",
+    "hu": "Foltos kontyvirág",
+    "de": "Gefleckter Aronstab"
+  },
+  "toxic": true,
+  "toxic_note": {
+    "en": "All parts contain calcium oxalate crystals, which cause intense burning and irritation of the mouth and throat if eaten.",
+    "ro": "Toate părțile conțin cristale de oxalat de calciu, care provoacă arsuri și iritații puternice ale gurii și gâtului dacă sunt consumate."
+  },
+  "look_alike": [
+    {
+      "id": "allium-ursinum",
+      "note": {
+        "en": "The leaves can be mistaken for each other. Confusing them can cause poisoning.",
+        "ro": "Frunzele pot fi confundate. Confuzia poate provoca intoxicații."
+      }
+    }
+  ]
+}

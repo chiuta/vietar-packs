@@ -1,0 +1,13 @@
+{
+  "id": "passer-domesticus",
+  "latin": "Passer domesticus",
+  "kingdom": "animalia",
+  "group": "bird",
+  "names": {
+    "en": "House sparrow",
+    "ro": "Vrabie de casă",
+    "hu": "Házi veréb",
+    "de": "Haussperling",
+    "bg": "Домашно врабче"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "conium-maculatum",
+  "latin": "Conium maculatum",
+  "kingdom": "plantae",
+  "group": "herb",
+  "names": {
+    "en": "Poison hemlock",
+    "ro": "Cucută",
+    "hu": "Foltos bürök",
+    "de": "Gefleckter Schierling"
+  },
+  "toxic": true,
+  "toxic_note": {
+    "en": "Extremely poisonous in all parts: contains coniine. Eating even a small amount can be fatal.",
+    "ro": "Extrem de otrăvitoare în toate părțile: conține coniină. Chiar și o cantitate mică poate fi mortală."
+  },
+  "look_alike": [
+    {
+      "id": "daucus-carota",
+      "note": {
+        "en": "Poison hemlock can be mistaken for wild carrot, parsley and other plants of the same family. Confusion has caused fatal poisonings.",
+        "ro": "Cucuta poate fi confundată cu morcovul sălbatic, pătrunjelul și alte plante din aceeași familie. Confuzia a provocat intoxicații mortale."
+      }
+    }
+  ]
+}

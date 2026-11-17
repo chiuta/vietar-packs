@@ -1,0 +1,17 @@
+{
+  "id": "hyoscyamus-niger",
+  "latin": "Hyoscyamus niger",
+  "kingdom": "plantae",
+  "group": "herb",
+  "names": {
+    "en": "Black henbane",
+    "ro": "Măselariță",
+    "hu": "Fekete beléndek",
+    "de": "Schwarzes Bilsenkraut"
+  },
+  "toxic": true,
+  "toxic_note": {
+    "en": "Very poisonous: contains tropane alkaloids; poisoning causes confusion and hallucinations and can be fatal.",
+    "ro": "Foarte otrăvitoare: conține alcaloizi tropanici; otrăvirea provoacă confuzie și halucinații și poate fi mortală."
+  }
+}

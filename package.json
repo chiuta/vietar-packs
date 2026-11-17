@@ -1,0 +1,17 @@
+{
+  "name": "vietar-packs",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Regional species packs (names in several languages, toxic flag, dangerous look-alikes, licensed photos and sounds) for VietAR: a viewer, a pack creator and checks in one page.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "node --test \"test/*.test.mjs\"",
+    "build": "node scripts/build.mjs",
+    "pack": "node scripts/pack.mjs",
+    "check": "node scripts/pack.mjs --check && python3 scripts/validate.py && node scripts/build.mjs --check"
+  }
+}

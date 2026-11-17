@@ -2,15 +2,15 @@
 
 [English](ISSUES_GOOD_FIRST.md) · **Română** · [Français](ISSUES_GOOD_FIRST.fr.md) · [Italiano](ISSUES_GOOD_FIRST.it.md) · [Español](ISSUES_GOOD_FIRST.es.md) · [Português](ISSUES_GOOD_FIRST.pt.md) · [Deutsch](ISSUES_GOOD_FIRST.de.md) · [Magyar](ISSUES_GOOD_FIRST.hu.md)
 
-- [ ] Adaugă 30 de mamifere din Carpați cu nume în en/ro/hu/de
-- [ ] Adaugă 50 de păsări comune din România cu linkuri audio (Xeno-canto, CC-BY)
-- [ ] Adaugă 40 de plante și ciuperci sălbatice din România cu un indicator boolean `toxic` (extinde schema)
-- [ ] Creează specificația formatului de pachet (manifest `pack.json` cu regiune, versiune, număr)
-- [ ] Adaugă un schelet de pachet pentru Bulgaria (BG) cu 20 de specii
-- [ ] Adaugă un schelet de pachet pentru Republica Moldova (MD) cu 20 de specii
-- [ ] Scrie un script care verifică licențele fotografiilor prin API-ul Wikimedia Commons
-- [ ] Redu dimensiunea fotografiilor: adaugă `scripts/optimize.py` (WebP, maximum 640 px)
-- [ ] Adaugă un câmp „look-alike” care leagă perechile de specii periculoase
-- [ ] Documentează cum adaugă o clasă de școală un pachet local
+- [ ] Extinde `ro-mammals` la 30 de mamifere din Carpați, cu nume în en/ro/hu/de
+- [ ] Extinde `ro-birds` la 50 de păsări comune din România
+- [ ] Extinde `ro-plants-fungi` la 40 de plante sălbatice și ciuperci, fiecare cu marcaj de toxicitate și cu sosiile ei
+- [ ] Extinde scheletul bulgar `bg-starter` la 20 de specii, cu nume verificate de un vorbitor de bulgară
+- [ ] Extinde scheletul moldovenesc `md-starter` la 20 de specii, cu nume verificate de un vorbitor local
+- [ ] Cere unui biolog sau micolog să revizuiască un pachet inclus și să consemneze revizuirea (vezi `docs/review-guide.md`)
+- [ ] Adaugă fotografii reale cu licențele lor la speciile incluse (`scripts/optimize.py`, `scripts/check_licences.mjs --online`)
+- [ ] Adaugă legături xeno-canto la păsări, fiecare verificată prin ascultare
+- [ ] Cere vorbitorilor nativi să revizuiască traducerile interfeței (fr, it, es, pt, de, hu, ro)
+- [ ] Fă aplicația VietAR să importe fișiere `vietar-pack` (o schimbare în depozitul VietAR)
 
 Creează-le pe toate pe GitHub cu `scripts/create_issues.sh` (cere CLI-ul `gh`).

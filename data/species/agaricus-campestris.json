@@ -1,0 +1,22 @@
+{
+  "id": "agaricus-campestris",
+  "latin": "Agaricus campestris",
+  "kingdom": "fungi",
+  "group": "fungus",
+  "names": {
+    "en": "Field mushroom",
+    "ro": "Champignon de câmp",
+    "hu": "Mezei csiperke",
+    "de": "Wiesen-Champignon"
+  },
+  "toxic": false,
+  "look_alike": [
+    {
+      "id": "amanita-phalloides",
+      "note": {
+        "en": "Young death caps can be mistaken for field mushrooms. Confusion has caused fatal poisonings.",
+        "ro": "Buretele viperei tânăr poate fi confundat cu ciuperca de câmp. Confuzia a provocat intoxicații mortale."
+      }
+    }
+  ]
+}

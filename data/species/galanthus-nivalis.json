@@ -1,0 +1,17 @@
+{
+  "id": "galanthus-nivalis",
+  "latin": "Galanthus nivalis",
+  "kingdom": "plantae",
+  "group": "herb",
+  "names": {
+    "en": "Snowdrop",
+    "ro": "Ghiocel",
+    "hu": "Kikeleti hóvirág",
+    "de": "Schneeglöckchen"
+  },
+  "toxic": true,
+  "toxic_note": {
+    "en": "All parts, especially the bulb, can cause nausea, vomiting and diarrhoea if eaten.",
+    "ro": "Toate părțile plantei, mai ales bulbul, pot provoca greață, vărsături și diaree dacă sunt consumate."
+  }
+}

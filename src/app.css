@@ -1,0 +1,105 @@
+/* VietAR Packs · stiluri pentru secțiunea aplicației (doar clase; politica CSP interzice atributele style).
+   Spațierea folosește margini, nu «gap», ca să meargă și în browsere mai vechi; nu se folosesc «inset», «aspect-ratio» sau «dvh».
+   «Nemarcată toxică» nu primește niciodată culoarea verde: nu trebuie să semene cu un semn de siguranță. */
+#app [hidden],.vp-box [hidden]{display:none!important}
+.vp-msg{min-height:1.5em;max-width:80ch;font-weight:650;margin:.5em 0}
+.vp-msg p{margin:.2em 0}
+.vp-lines{margin:.3em 0 .3em 1.2em;padding:0;max-width:80ch;overflow-wrap:anywhere}
+.vp-main{position:relative}
+.vp-safe{border:2px solid #b3261e;border-radius:10px;background:var(--bg2);padding:6px 16px 8px;margin:10px 0;max-width:60rem}
+.vp-safe h3{margin:.5em 0 .3em}
+.vp-safe p{margin:.4em 0;max-width:80ch;overflow-wrap:anywhere}
+.vp-strong{font-weight:700}
+.vp-tabs{display:flex;flex-wrap:wrap;margin:10px 0 6px}
+.vp-tabs .btn{margin:0 8px 8px 0;min-height:44px}
+.vp-box{position:relative;margin:8px 0;min-width:0}
+.vp-box h3{margin:1.1em 0 .4em}
+.vp-box h4{margin:1.2em 0 .4em}
+.vp-box h5,.vp-maph{margin:1em 0 .4em;font-size:1rem}
+.vp-bar{display:flex;flex-wrap:wrap;align-items:flex-start;margin:10px 0}
+.vp-bar>*{margin:0 10px 8px 0;min-width:0;max-width:100%}
+.vp-bar .btn{min-height:44px}
+.vp-f{display:flex;flex-direction:column;font-size:.88rem;color:var(--mut);min-width:0;max-width:100%;margin:0 12px 10px 0}
+.vp-f>label{display:flex;align-items:flex-end;min-height:2.7em;font-weight:650;line-height:1.25;margin-bottom:4px}
+.vp-fh{font-size:.82rem;margin-top:4px;max-width:34rem}
+.vp-f-wide{flex:1 1 18rem}
+.vp-f-short{width:11rem;flex:0 0 auto}
+.vp-inp{background:var(--card);color:var(--tx);border:1px solid var(--line);border-radius:10px;font:inherit;font-size:1rem;min-height:44px;padding:6px 10px;max-width:100%;min-width:0;box-sizing:border-box}
+.vp-inp:hover{border-color:var(--ac)}
+.sel.vp-inp{max-width:100%}
+textarea.vp-inp{display:block;width:100%;max-width:80ch;line-height:1.45;resize:vertical}
+textarea.vp-mono{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.92rem}
+input.vp-inp[type="text"],input.vp-inp[type="search"]{width:100%;max-width:24rem}
+.vp-f-short input.vp-inp{max-width:100%}
+input[type="file"].vp-inp{padding:8px 10px;max-width:100%}
+.vp-hint{color:var(--mut);font-size:.92rem;max-width:80ch;margin:.4em 0}
+.vp-count{max-width:80ch;margin:.8em 0;font-weight:650}
+.vp-meta{color:var(--mut);font-size:.9rem;margin:.2em 0;max-width:80ch;overflow-wrap:anywhere}
+.vp-box [tabindex="-1"]:focus{outline:3px solid var(--ac);outline-offset:2px}
+.vp-tblwrap:focus,.vp-code:focus{outline:3px solid var(--ac);outline-offset:2px}
+.vp-lat{font-style:italic;color:var(--mut)}
+.vp-lc{color:var(--mut);font-size:.85em}
+.vp-g{color:var(--mut);font-size:.85rem}
+.vp-pre{white-space:pre-wrap;overflow-wrap:anywhere}
+.vp-badge{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:0 8px;font-size:.8rem;font-weight:650;color:var(--tx);background:var(--bg2);margin:0 .3em}
+.vp-badge-tox{background:#b3261e;border-color:#b3261e;color:#fff}
+.vp-badge-st{border-style:dashed}
+
+/* lista de specii și fișa unei specii */
+.vp-listbox{max-width:60rem}
+.vp-list{list-style:none;margin:0;padding:0}
+.vp-list li{margin:0}
+.vp-sp{display:block;width:100%;max-width:46rem;text-align:left;white-space:normal;margin:6px 0;min-height:48px;padding:8px 14px;overflow-wrap:anywhere}
+.vp-n{font-weight:700}
+.vp-more{min-height:44px;margin:8px 0}
+.vp-detail{max-width:60rem}
+.vp-detail>.btn{min-height:44px;margin:6px 0}
+.vp-d-h{margin:.6em 0 .2em}
+.vp-tox{border:1px solid var(--line);border-left:6px dashed var(--mut);border-radius:10px;padding:4px 14px 8px;margin:10px 0;max-width:46rem;background:var(--card)}
+.vp-tox-yes{border-color:#b3261e;border-left:6px solid #b3261e}
+.vp-tox-h{font-weight:750;font-size:1.1rem;margin:.5em 0 .2em}
+.vp-tox h4{margin:.8em 0 .3em}
+.vp-names{list-style:none;margin:.3em 0;padding:0}
+.vp-names li{margin:.2em 0}
+.vp-looks{list-style:none;margin:.3em 0;padding:0;max-width:60rem}
+.vp-looks li{margin:8px 0;padding:6px 10px;border:1px solid var(--line);border-left:4px solid #b3261e;border-radius:10px;background:var(--card)}
+.vp-lk{min-height:44px;margin:0 8px 4px 0}
+.vp-fig{margin:10px 0;max-width:28rem}
+.vp-photo{display:block;width:auto;max-width:100%;height:auto;border-radius:8px;background:#fff}
+.vp-cap{font-size:.88rem;color:var(--mut);margin-top:4px;overflow-wrap:anywhere}
+.vp-audio{margin:.3em 0 .3em 1.2em;padding:0;max-width:80ch;overflow-wrap:anywhere}
+.vp-audio li{margin:.4em 0}
+
+/* tabele și pachete */
+.vp-tblwrap{overflow-x:auto;max-width:100%;margin:6px 0}
+.vp-tbl{border-collapse:collapse;min-width:16rem}
+.vp-tbl th,.vp-tbl td{border:1px solid var(--line);padding:.35em .7em;text-align:right;font-weight:400}
+.vp-tbl thead th{background:var(--bg2);font-weight:650}
+.vp-tbl thead th:first-child,.vp-tbl tbody th{text-align:left}
+.vp-tbl tbody th{font-weight:650}
+.vp-pack{margin:14px 0;padding:10px 14px;border:1px solid var(--line);border-left:4px solid var(--ac);border-radius:10px;background:var(--card);max-width:60rem;overflow-wrap:anywhere}
+.vp-pk-h{margin-top:.2em}
+.vp-status{margin:.5em 0;max-width:80ch}
+.vp-imp{margin:22px 0 8px;max-width:60rem}
+.vp-rep{margin:10px 0;max-width:80ch;min-height:1.5em}
+.vp-bad{color:#ffb4ab}
+:root[data-theme="light"] .vp-bad{color:#8c1d18}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]) .vp-bad{color:#8c1d18}}
+.vp-ok{color:#9be3a8;font-weight:650}
+:root[data-theme="light"] .vp-ok{color:#14591f}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]) .vp-ok{color:#14591f}}
+
+/* creatorul */
+.vp-form,.vp-meta-box,.vp-look,.vp-json,.vp-check,.vp-dlist{max-width:60rem}
+.vp-dl,.vp-pairs{list-style:none;margin:6px 0;padding:0}
+.vp-dl-row,.vp-pair{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;border:1px solid var(--line);border-radius:10px;padding:6px 10px;margin:6px 0;background:var(--card)}
+.vp-dl-i,.vp-pair-t{flex:1 1 16rem;min-width:0;overflow-wrap:anywhere}
+.vp-dl-b{flex:0 0 auto}
+.vp-dl-b .btn,.vp-pair .btn{min-height:44px;margin:4px 0 4px 8px}
+.vp-chk{margin:8px 0;max-width:80ch}
+.vp-steps{margin:.4em 0 .6em 1.4em;padding:0;max-width:80ch}
+.vp-steps li{margin:.5em 0}
+.vp-code{background:var(--bg2);border:1px solid var(--line);border-radius:10px;padding:10px 12px;overflow:auto;max-width:60rem;font-size:.88rem;line-height:1.4}
+.vp-list-lim{max-width:80ch}
+.btn[aria-disabled="true"]{opacity:.6;cursor:not-allowed}
+@media (max-width:860px){.vp-inp{min-width:80px}.vp-f-short{width:7rem}}

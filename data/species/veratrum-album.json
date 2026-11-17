@@ -1,0 +1,26 @@
+{
+  "id": "veratrum-album",
+  "latin": "Veratrum album",
+  "kingdom": "plantae",
+  "group": "herb",
+  "names": {
+    "en": "White false hellebore",
+    "ro": "Steregoaie",
+    "hu": "Fehér zászpa",
+    "de": "Weißer Germer"
+  },
+  "toxic": true,
+  "toxic_note": {
+    "en": "Very poisonous in all parts: contains alkaloids that can cause severe heart and circulation problems.",
+    "ro": "Foarte otrăvitoare în toate părțile: conține alcaloizi care pot provoca probleme grave ale inimii și circulației."
+  },
+  "look_alike": [
+    {
+      "id": "gentiana-lutea",
+      "note": {
+        "en": "Before flowering, the leaves look alike. White false hellebore is highly poisonous, and confusing them has caused serious poisonings.",
+        "ro": "Înainte de înflorire, frunzele seamănă. Steregoaia este foarte otrăvitoare, iar confuzia a provocat intoxicații grave."
+      }
+    }
+  ]
+}

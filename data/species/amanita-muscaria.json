@@ -1,0 +1,17 @@
+{
+  "id": "amanita-muscaria",
+  "latin": "Amanita muscaria",
+  "kingdom": "fungi",
+  "group": "fungus",
+  "names": {
+    "en": "Fly agaric",
+    "ro": "Buretele muștelor",
+    "hu": "Légyölő galóca",
+    "de": "Fliegenpilz"
+  },
+  "toxic": true,
+  "toxic_note": {
+    "en": "Poisonous: contains ibotenic acid and muscimol; poisoning causes confusion, vomiting and hallucinations.",
+    "ro": "Otrăvitoare: conține acid ibotenic și muscimol; otrăvirea provoacă confuzie, vărsături și halucinații."
+  }
+}

@@ -2,15 +2,15 @@
 
 [English](ISSUES_GOOD_FIRST.md) · [Română](ISSUES_GOOD_FIRST.ro.md) · **Français** · [Italiano](ISSUES_GOOD_FIRST.it.md) · [Español](ISSUES_GOOD_FIRST.es.md) · [Português](ISSUES_GOOD_FIRST.pt.md) · [Deutsch](ISSUES_GOOD_FIRST.de.md) · [Magyar](ISSUES_GOOD_FIRST.hu.md)
 
-- [ ] Ajouter 30 mammifères des Carpates avec noms en en/ro/hu/de
-- [ ] Ajouter 50 oiseaux communs de Roumanie avec liens audio (Xeno-canto, CC-BY)
-- [ ] Ajouter 40 plantes et champignons sauvages de Roumanie avec un indicateur booléen `toxic` (étendre le schéma)
-- [ ] Créer la spécification du format de paquet (manifeste `pack.json` avec région, version, nombre)
-- [ ] Ajouter un squelette de paquet pour la Bulgarie (BG) avec 20 espèces
-- [ ] Ajouter un squelette de paquet pour la Moldavie (MD) avec 20 espèces
-- [ ] Écrire un script qui vérifie les licences des photos via l’API Wikimedia Commons
-- [ ] Réduire la taille des photos : ajouter `scripts/optimize.py` (WebP, 640 px max)
-- [ ] Ajouter un champ « look-alike » reliant les paires d’espèces dangereuses
-- [ ] Documenter comment une classe d’école ajoute un paquet local
+- [ ] Porter `ro-mammals` à 30 mammifères des Carpates, avec des noms en en/ro/hu/de
+- [ ] Porter `ro-birds` à 50 oiseaux communs de Roumanie
+- [ ] Porter `ro-plants-fungi` à 40 plantes sauvages et champignons, chacun avec un indicateur de toxicité et ses sosies
+- [ ] Porter le squelette bulgare `bg-starter` à 20 espèces, avec des noms vérifiés par un locuteur du bulgare
+- [ ] Porter le squelette moldave `md-starter` à 20 espèces, avec des noms vérifiés par un locuteur local
+- [ ] Faire relire un paquet intégré par un biologiste ou un mycologue et consigner la relecture (voir `docs/review-guide.md`)
+- [ ] Ajouter de vraies photos avec leurs licences aux espèces intégrées (`scripts/optimize.py`, `scripts/check_licences.mjs --online`)
+- [ ] Ajouter aux oiseaux des liens xeno-canto, chacun vérifié à l’écoute
+- [ ] Faire relire les traductions de l’interface par des locuteurs natifs (fr, it, es, pt, de, hu, ro)
+- [ ] Faire importer des fichiers `vietar-pack` par l’application VietAR (une modification dans le dépôt VietAR)
 
 Créez-les toutes sur GitHub avec `scripts/create_issues.sh` (nécessite la CLI `gh`).

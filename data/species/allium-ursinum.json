@@ -1,0 +1,36 @@
+{
+  "id": "allium-ursinum",
+  "latin": "Allium ursinum",
+  "kingdom": "plantae",
+  "group": "herb",
+  "names": {
+    "en": "Ramsons (wild garlic)",
+    "ro": "Leurdă",
+    "hu": "Medvehagyma",
+    "de": "Bärlauch"
+  },
+  "toxic": false,
+  "look_alike": [
+    {
+      "id": "colchicum-autumnale",
+      "note": {
+        "en": "The leaves can be mistaken for each other. Confusing them has caused serious poisonings.",
+        "ro": "Frunzele pot fi confundate. Confuzia a provocat intoxicații grave."
+      }
+    },
+    {
+      "id": "convallaria-majalis",
+      "note": {
+        "en": "The leaves can be mistaken for each other. Confusing them has caused serious poisonings.",
+        "ro": "Frunzele pot fi confundate. Confuzia a provocat intoxicații grave."
+      }
+    },
+    {
+      "id": "arum-maculatum",
+      "note": {
+        "en": "The leaves can be mistaken for each other. Confusing them can cause poisoning.",
+        "ro": "Frunzele pot fi confundate. Confuzia poate provoca intoxicații."
+      }
+    }
+  ]
+}

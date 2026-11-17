@@ -1,0 +1,209 @@
+{
+  "format": "vietar-pack",
+  "format_version": 1,
+  "id": "ro-mammals",
+  "title": {
+    "en": "Mammals of Romania (starter set)",
+    "ro": "Mamifere din România (set de pornire)"
+  },
+  "description": {
+    "en": "A starter set of mammals of the Carpathians and the nearby lowlands. Draft: the names and notes were written with an AI assistant and have not yet been reviewed by a biologist or by native speakers.",
+    "ro": "Set de pornire cu mamifere din Carpați și din zonele apropiate. Ciornă: numele și notele au fost scrise cu un asistent AI și nu au fost încă verificate de un biolog sau de vorbitori nativi."
+  },
+  "region": "RO",
+  "version": "0.1.0",
+  "updated": "2026-11-17",
+  "licence": "CC0-1.0",
+  "status": "draft",
+  "authors": [
+    "VietAR Packs contributors"
+  ],
+  "count": 15,
+  "species": [
+    {
+      "id": "ursus-arctos",
+      "latin": "Ursus arctos",
+      "kingdom": "animalia",
+      "group": "mammal",
+      "names": {
+        "en": "Brown bear",
+        "ro": "Urs brun",
+        "hu": "Barna medve",
+        "de": "Braunbär"
+      }
+    },
+    {
+      "id": "canis-lupus",
+      "latin": "Canis lupus",
+      "kingdom": "animalia",
+      "group": "mammal",
+      "names": {
+        "en": "Grey wolf",
+        "ro": "Lup",
+        "hu": "Farkas",
+        "de": "Wolf"
+      }
+    },
+    {
+      "id": "lynx-lynx",
+      "latin": "Lynx lynx",
+      "kingdom": "animalia",
+      "group": "mammal",
+      "names": {
+        "en": "Eurasian lynx",
+        "ro": "Râs",
+        "hu": "Hiúz",
+        "de": "Luchs"
+      }
+    },
+    {
+      "id": "felis-silvestris",
+      "latin": "Felis silvestris",
+      "kingdom": "animalia",
+      "group": "mammal",
+      "names": {
+        "en": "European wildcat",
+        "ro": "Pisică sălbatică",
+        "hu": "Vadmacska",
+        "de": "Wildkatze"
+      }
+    },
+    {
+      "id": "cervus-elaphus",
+      "latin": "Cervus elaphus",
+      "kingdom": "animalia",
+      "group": "mammal",
+      "names": {
+        "en": "Red deer",
+        "ro": "Cerb comun",
+        "hu": "Gímszarvas",
+        "de": "Rothirsch"
+      }
+    },
+    {
+      "id": "capreolus-capreolus",
+      "latin": "Capreolus capreolus",
+      "kingdom": "animalia",
+      "group": "mammal",
+      "names": {
+        "en": "Roe deer",
+        "ro": "Căprior",
+        "hu": "Őz",
+        "de": "Reh",
+        "bg": "Сърна"
+      }
+    },
+    {
+      "id": "sus-scrofa",
+      "latin": "Sus scrofa",
+      "kingdom": "animalia",
+      "group": "mammal",
+      "names": {
+        "en": "Wild boar",
+        "ro": "Mistreț",
+        "hu": "Vaddisznó",
+        "de": "Wildschwein",
+        "bg": "Дива свиня"
+      }
+    },
+    {
+      "id": "rupicapra-rupicapra",
+      "latin": "Rupicapra rupicapra",
+      "kingdom": "animalia",
+      "group": "mammal",
+      "names": {
+        "en": "Chamois",
+        "ro": "Capră neagră",
+        "hu": "Zerge",
+        "de": "Gämse"
+      }
+    },
+    {
+      "id": "vulpes-vulpes",
+      "latin": "Vulpes vulpes",
+      "kingdom": "animalia",
+      "group": "mammal",
+      "names": {
+        "en": "Red fox",
+        "ro": "Vulpe",
+        "hu": "Vörös róka",
+        "de": "Rotfuchs",
+        "bg": "Червена лисица"
+      }
+    },
+    {
+      "id": "meles-meles",
+      "latin": "Meles meles",
+      "kingdom": "animalia",
+      "group": "mammal",
+      "names": {
+        "en": "European badger",
+        "ro": "Bursuc",
+        "hu": "Borz",
+        "de": "Dachs",
+        "bg": "Язовец"
+      }
+    },
+    {
+      "id": "martes-martes",
+      "latin": "Martes martes",
+      "kingdom": "animalia",
+      "group": "mammal",
+      "names": {
+        "en": "European pine marten",
+        "ro": "Jder de copac",
+        "hu": "Nyuszt",
+        "de": "Baummarder"
+      }
+    },
+    {
+      "id": "lutra-lutra",
+      "latin": "Lutra lutra",
+      "kingdom": "animalia",
+      "group": "mammal",
+      "names": {
+        "en": "Eurasian otter",
+        "ro": "Vidră",
+        "hu": "Vidra",
+        "de": "Fischotter"
+      }
+    },
+    {
+      "id": "castor-fiber",
+      "latin": "Castor fiber",
+      "kingdom": "animalia",
+      "group": "mammal",
+      "names": {
+        "en": "Eurasian beaver",
+        "ro": "Castor",
+        "hu": "Hód",
+        "de": "Biber"
+      }
+    },
+    {
+      "id": "lepus-europaeus",
+      "latin": "Lepus europaeus",
+      "kingdom": "animalia",
+      "group": "mammal",
+      "names": {
+        "en": "European hare",
+        "ro": "Iepure de câmp",
+        "hu": "Mezei nyúl",
+        "de": "Feldhase",
+        "bg": "Полски заек"
+      }
+    },
+    {
+      "id": "sciurus-vulgaris",
+      "latin": "Sciurus vulgaris",
+      "kingdom": "animalia",
+      "group": "mammal",
+      "names": {
+        "en": "Red squirrel",
+        "ro": "Veveriță",
+        "hu": "Mókus",
+        "de": "Eichhörnchen"
+      }
+    }
+  ]
+}

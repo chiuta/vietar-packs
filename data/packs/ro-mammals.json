@@ -1,0 +1,37 @@
+{
+  "id": "ro-mammals",
+  "title": {
+    "en": "Mammals of Romania (starter set)",
+    "ro": "Mamifere din România (set de pornire)"
+  },
+  "description": {
+    "en": "A starter set of mammals of the Carpathians and the nearby lowlands. Draft: the names and notes were written with an AI assistant and have not yet been reviewed by a biologist or by native speakers.",
+    "ro": "Set de pornire cu mamifere din Carpați și din zonele apropiate. Ciornă: numele și notele au fost scrise cu un asistent AI și nu au fost încă verificate de un biolog sau de vorbitori nativi."
+  },
+  "region": "RO",
+  "version": "0.1.0",
+  "updated": "2026-11-17",
+  "licence": "CC0-1.0",
+  "status": "draft",
+  "authors": [
+    "VietAR Packs contributors"
+  ],
+  "species": [
+    "ursus-arctos",
+    "canis-lupus",
+    "lynx-lynx",
+    "felis-silvestris",
+    "cervus-elaphus",
+    "capreolus-capreolus",
+    "sus-scrofa",
+    "rupicapra-rupicapra",
+    "vulpes-vulpes",
+    "meles-meles",
+    "martes-martes",
+    "lutra-lutra",
+    "castor-fiber",
+    "lepus-europaeus",
+    "sciurus-vulgaris"
+  ],
+  "count": 15
+}

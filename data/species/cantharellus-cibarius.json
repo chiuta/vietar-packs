@@ -1,0 +1,13 @@
+{
+  "id": "cantharellus-cibarius",
+  "latin": "Cantharellus cibarius",
+  "kingdom": "fungi",
+  "group": "fungus",
+  "names": {
+    "en": "Golden chanterelle",
+    "ro": "Gălbiori",
+    "hu": "Sárga rókagomba",
+    "de": "Pfifferling"
+  },
+  "toxic": false
+}

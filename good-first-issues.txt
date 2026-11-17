@@ -1,10 +1,10 @@
-Add 30 mammals of the Carpathians with names in en/ro/hu/de
-Add 50 common birds of Romania with audio links (Xeno-canto, CC-BY)
-Add 40 wild plants/mushrooms of Romania with a `toxic` boolean (extend schema)
-Create the pack format spec (`pack.json` manifest with region, version, count)
-Add a Bulgaria (BG) pack skeleton with 20 species
-Add a Moldova (MD) pack skeleton with 20 species
-Write a script that checks photo licences against Wikimedia Commons API
-Reduce photo size: add a `scripts/optimize.py` (WebP, max 640px)
-Add a 'look-alike' field linking dangerous species pairs
-Document how a school class can add a local pack
+Grow `ro-mammals` to 30 Carpathian mammals, with names in en/ro/hu/de
+Grow `ro-birds` to 50 common birds of Romania
+Grow `ro-plants-fungi` to 40 wild plants and mushrooms, each with a toxic flag and its look-alikes
+Grow the Bulgarian skeleton `bg-starter` to 20 species, with names checked by a Bulgarian speaker
+Grow the Moldovan skeleton `md-starter` to 20 species, with names checked by a local speaker
+Have a biologist or mycologist review one built-in pack and record it (see `docs/review-guide.md`)
+Add real photos with their licences to built-in species (`scripts/optimize.py`, `scripts/check_licences.mjs --online`)
+Add xeno-canto links to the birds, each one checked by listening
+Ask native speakers to review the interface translations (fr, it, es, pt, de, hu, ro)
+Let the VietAR app import `vietar-pack` files (a change in the VietAR repository)

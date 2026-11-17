@@ -1,0 +1,22 @@
+{
+  "id": "gentiana-lutea",
+  "latin": "Gentiana lutea",
+  "kingdom": "plantae",
+  "group": "herb",
+  "names": {
+    "en": "Great yellow gentian",
+    "ro": "Ghințură galbenă",
+    "hu": "Sárga tárnics",
+    "de": "Gelber Enzian"
+  },
+  "toxic": false,
+  "look_alike": [
+    {
+      "id": "veratrum-album",
+      "note": {
+        "en": "Before flowering, the leaves look alike. White false hellebore is highly poisonous, and confusing them has caused serious poisonings.",
+        "ro": "Înainte de înflorire, frunzele seamănă. Steregoaia este foarte otrăvitoare, iar confuzia a provocat intoxicații grave."
+      }
+    }
+  ]
+}

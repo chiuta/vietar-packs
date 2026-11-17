@@ -1,0 +1,26 @@
+{
+  "id": "amanita-phalloides",
+  "latin": "Amanita phalloides",
+  "kingdom": "fungi",
+  "group": "fungus",
+  "names": {
+    "en": "Death cap",
+    "ro": "Buretele viperei",
+    "hu": "Gyilkos galóca",
+    "de": "Grüner Knollenblätterpilz"
+  },
+  "toxic": true,
+  "toxic_note": {
+    "en": "Deadly poisonous: contains amatoxins, which are not destroyed by cooking. Symptoms can appear only after many hours, and the poisoning can cause fatal liver failure.",
+    "ro": "Mortal de otrăvitoare: conține amatoxine, care nu sunt distruse prin gătire. Simptomele pot apărea abia după multe ore, iar intoxicația poate duce la insuficiență hepatică mortală."
+  },
+  "look_alike": [
+    {
+      "id": "agaricus-campestris",
+      "note": {
+        "en": "Young death caps can be mistaken for field mushrooms. Confusion has caused fatal poisonings.",
+        "ro": "Buretele viperei tânăr poate fi confundat cu ciuperca de câmp. Confuzia a provocat intoxicații mortale."
+      }
+    }
+  ]
+}
