@@ -6,6 +6,9 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) · [SemVer](htt
 
 ## [Unreleased]
 
+### Added
+- `scripts/check_licences.mjs --api URL`: another MediaWiki endpoint instead of Commons; the “no network” CLI test now uses a closed local port, so it no longer depends on the machine having (or lacking) internet access.
+
 ## [0.2.0] - 2026-11-17
 
 ### Added

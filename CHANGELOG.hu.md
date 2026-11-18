@@ -6,6 +6,9 @@ Formátum: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) · [SemVer](
 
 ## [Kiadatlan]
 
+### Hozzáadva
+- `scripts/check_licences.mjs --api URL`: a Commons helyett másik MediaWiki-végpont; a „hálózat nélküli” CLI-teszt mostantól egy zárt helyi portot használ, így nem függ attól, hogy a gépnek van-e internete.
+
 ## [0.2.0] - 2026-11-17
 
 ### Hozzáadva

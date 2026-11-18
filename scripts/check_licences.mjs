@@ -5,6 +5,7 @@
 //   node scripts/check_licences.mjs --online      în plus: întreabă API-ul Wikimedia Commons pentru fiecare fotografie cu «commons_file»
 //                                                 și compară licența și autorul (rețeaua se folosește doar cu această opțiune)
 //   --root DIR                                    alt depozit (teste)
+//   --api URL                                     alt punct de acces MediaWiki, în loc de Commons (teste: un port închis dă «lookup_failed» fără rețea)
 //
 // Niveluri: «error» (licență diferită, fișier dispărut, căutare eșuată) oprește scriptul cu cod 1; «warning» doar se afișează.
 // Fotografiile fără «commons_file» (fotografii proprii, din alte surse) nu pot fi verificate automat: ele rămân în sarcina celui care le adaugă.
@@ -49,12 +50,12 @@ export function offlineChecks(items) {
 }
 
 /* ---------- Wikimedia Commons ---------- */
-export function queryUrl(titles) {
+export function queryUrl(titles, api) {
   const p = new URLSearchParams({
     action: 'query', titles: titles.join('|'), prop: 'imageinfo', iiprop: 'extmetadata',
     iiextmetadatafilter: 'License|LicenseShortName|Artist', format: 'json', formatversion: '2', redirects: '1'
   });
-  return API + '?' + p.toString();
+  return (api || API) + '?' + p.toString();
 }
 /** Licența de pe Commons, în codul nostru (sau «» dacă nu o recunoaștem). */
 export function commonsLicence(meta) {
@@ -97,7 +98,7 @@ export function parseCommons(json, asked) {
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 /** Întreabă Commons, câte `batch` titluri într-o cerere; `fetchImpl` și `delay` pot fi înlocuite în teste. */
 export async function onlineChecks(items, opts) {
-  const o = Object.assign({fetchImpl: globalThis.fetch, batch: 20, delay: 300}, opts || {});
+  const o = Object.assign({fetchImpl: globalThis.fetch, batch: 20, delay: 300, api: API}, opts || {});
   const out = [];
   const wanted = items.filter((x) => x.photo.commons_file);
   const titles = [...new Set(wanted.map((x) => x.photo.commons_file))];
@@ -106,7 +107,7 @@ export async function onlineChecks(items, opts) {
     const part = titles.slice(i, i + o.batch);
     let json = null, why = '';
     try {
-      const res = await o.fetchImpl(queryUrl(part), {headers: {'User-Agent': USER_AGENT, Accept: 'application/json'}});
+      const res = await o.fetchImpl(queryUrl(part, o.api), {headers: {'User-Agent': USER_AGENT, Accept: 'application/json'}});
       if (!res.ok) why = 'HTTP ' + res.status;
       else { json = await res.json(); if (json && json.error) { why = 'API: ' + (json.error.code || 'error'); json = null; } }
     } catch (e) { why = String(e && e.message ? e.message : e); }
@@ -137,9 +138,11 @@ async function main() {
   const ri = args.indexOf('--root');
   const root = path.resolve(ri >= 0 ? args[ri + 1] : path.join(HERE, '..'));
   const online = args.includes('--online');
+  const ai = args.indexOf('--api');
+  const api = ai >= 0 ? args[ai + 1] : API;
   const items = photosOf(loadSpecies(root));
   let problems = offlineChecks(items);
-  if (online) problems = problems.concat(await onlineChecks(items));
+  if (online) problems = problems.concat(await onlineChecks(items, {api}));
   for (const p of problems) console.log(p.level + ' ' + p.code + ' — ' + p.at + ': ' + p.msg);
   const errors = problems.filter((p) => p.level === 'error').length;
   const checked = online ? items.filter((x) => x.photo.commons_file).length : 0;

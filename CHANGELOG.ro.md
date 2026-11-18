@@ -6,6 +6,9 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) · [SemVer](htt
 
 ## [Nelansat]
 
+### Adăugat
+- `scripts/check_licences.mjs --api URL`: alt punct de acces MediaWiki în locul Commons; testul CLI „fără rețea” folosește acum un port local închis, deci nu mai depinde de faptul că mașina are sau nu internet.
+
 ## [0.2.0] - 2026-11-17
 
 ### Adăugat

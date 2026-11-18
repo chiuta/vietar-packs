@@ -140,11 +140,12 @@ test('CLI: pe un depozit cu o fotografie nepotrivită (offline) iese cu 0 și af
 });
 
 test('CLI --online fără rețea: cod 1 și «lookup_failed» (nu o trecere în tăcere)', () => {
+  // Ermetic: punctul de acces e un port închis de pe aceeași mașină, deci rezultatul nu depinde de rețeaua (sau lipsa ei) de unde rulează testul.
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'vp-lic-'));
   fs.mkdirSync(path.join(dir, 'data/species'), {recursive: true});
   const s = clone(LYNX); s.photos = [ph({commons_file: 'File:Test.png'})];
   fs.writeFileSync(path.join(dir, 'data/species/lynx-lynx.json'), JSON.stringify(s));
-  const r = spawnSync('node', [path.join(ROOT, 'scripts/check_licences.mjs'), '--root', dir, '--online'], {encoding: 'utf8', timeout: 60000});
+  const r = spawnSync('node', [path.join(ROOT, 'scripts/check_licences.mjs'), '--root', dir, '--online', '--api', 'http://127.0.0.1:9/w/api.php'], {encoding: 'utf8', timeout: 60000});
   assert.equal(r.status, 1, r.stdout + r.stderr);
   assert.match(r.stdout, /error lookup_failed/);
 });
