@@ -1,6 +1,6 @@
 # Ghid de revizuire · VietAR Packs
 
-Versiune: 0.2.0 · Ultima actualizare: 2026-11-17 · [English](review-guide.md)
+Versiune: 0.2.1 · Ultima actualizare: 2026-11-20 · [English](review-guide.md)
 
 Acest ghid este pentru cel care revizuiește un pachet ca acesta să poată fi marcat «Verificat» și pentru oricine vrea să știe ce promite acest cuvânt. Pachetele incluse sunt astăzi ciorne: niciun specialist nu le-a verificat, iar acest ghid arată cum se schimbă asta.
 

@@ -1,6 +1,6 @@
 # Contributor guide · VietAR Packs
 
-Version: 0.2.0 · Last updated: 2026-11-17 · [Română](contributor-guide.ro.md)
+Version: 0.2.1 · Last updated: 2026-11-20 · [Română](contributor-guide.ro.md)
 
 This guide is for people who add or correct species, packs, photos or sounds in the repository. A class or a club that only wants to make a pack on the page can start with `docs/school-class-guide.md`. The exact format is in `docs/pack-format.md`; how a pack becomes “Reviewed” is in `docs/review-guide.md`.
 

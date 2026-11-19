@@ -6,8 +6,14 @@ Formato: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) · [SemVer](ht
 
 ## [Sin publicar]
 
+## [0.2.1] - 2026-11-20
+
 ### Añadido
 - `scripts/check_licences.mjs --api URL`: otro punto de acceso MediaWiki en lugar de Commons; la prueba CLI «sin red» usa ahora un puerto local cerrado y ya no depende de que la máquina tenga o no acceso a Internet.
+
+### Cambiado
+- fff-kit 1.8.1: cuando el navegador bloquea el almacenamiento o carece de él (`localStorage`/`sessionStorage` lanzan un error o no existen), la página arranca con un almacenamiento temporal en memoria en lugar de detenerse; los datos no se conservan al cerrar la página.
+- fff-kit 1.8.1: la guía que amplía los controles pequeños a 44 px mide ahora también el ancho del cuerpo de la página y del elemento padre, de modo que una fila de botones ya no puede salirse de la pantalla (el grupo se deja intacto cuando la ampliación lo haría demasiado ancho).
 
 ## [0.2.0] - 2026-11-17
 

@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · **Deutsch** · [Magyar](README.hu.md)
 
-Version: 0.2.0 · Letzte Aktualisierung: 2026-11-17
+Version: 0.2.1 · Letzte Aktualisierung: 2026-11-20
 
 🌐 https://vietar-packs.chiuta.ro
 

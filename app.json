@@ -2,8 +2,8 @@
   "schema": 1,
   "slug": "vietar-packs",
   "name": "VietAR Packs — Regional species packs for VietAR: names, photos and sounds of local wildlife and plants",
-  "version": "0.2.0",
-  "updated": "2026-11-17",
+  "version": "0.2.1",
+  "updated": "2026-11-20",
   "description": "Regional species packs for VietAR: names, photos and sounds of local wildlife and plants",
   "egress": [],
   "permissions": [
@@ -15,8 +15,8 @@
   "storageKeys": [
     "vietar-packs.packs"
   ],
-  "sizeBytes": 509548,
-  "sha256": "6ff11876552d43cd7d23ff8a547c817e50c1de58cfaac5865edd552a89b4a419",
+  "sizeBytes": 513054,
+  "sha256": "9084f4ec790130196cac4acdd40f349b6134d58fd1e63b74215b6070ce6417bc",
   "csp": {
     "present": true,
     "directives": {
@@ -58,7 +58,7 @@
     ]
   },
   "kit": {
-    "version": "1.8.0",
+    "version": "1.8.1",
     "modules": [
       "core",
       "store",

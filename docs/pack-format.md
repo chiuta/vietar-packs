@@ -1,6 +1,6 @@
 # The pack format · VietAR Packs
 
-Version: 0.2.0 · Last updated: 2026-11-17 · [Română](pack-format.ro.md)
+Version: 0.2.1 · Last updated: 2026-11-20 · [Română](pack-format.ro.md)
 
 A pack is one JSON file with the species of a region: names in several languages, a toxic flag, dangerous look-alikes and, when the licence allows it, photos and links to sounds. This guide lists every field and every limit. `schema.json` and `pack.schema.json` are the exact rules; `scripts/validate.py` and the page apply them, and `data/dist/example.json` shows every field in one file.
 

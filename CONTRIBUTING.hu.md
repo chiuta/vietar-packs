@@ -2,7 +2,7 @@
 
 [English](CONTRIBUTING.md) · [Română](CONTRIBUTING.ro.md) · [Français](CONTRIBUTING.fr.md) · [Italiano](CONTRIBUTING.it.md) · [Español](CONTRIBUTING.es.md) · [Português](CONTRIBUTING.pt.md) · [Deutsch](CONTRIBUTING.de.md) · **Magyar**
 
-Verzió: 0.2.0 · Utolsó frissítés: 2026-11-17
+Verzió: 0.2.1 · Utolsó frissítés: 2026-11-20
 
 1. Forkold ezt a tárolót.
 2. Készíts vagy bővíts egy csomagot: az oldalon használd a „Készítés” lapot, és töltsd le a fájlt, vagy írj kézzel `data/species/<latin-nev>.json` fájlokat (lásd `docs/pack-format.md`).

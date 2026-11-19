@@ -1,6 +1,6 @@
 # Formatul pachetelor · VietAR Packs
 
-Versiune: 0.2.0 · Ultima actualizare: 2026-11-17 · [English](pack-format.md)
+Versiune: 0.2.1 · Ultima actualizare: 2026-11-20 · [English](pack-format.md)
 
 Un pachet este un singur fișier JSON cu speciile unei regiuni: nume în mai multe limbi, un marcaj de toxicitate, sosii periculoase și, când licența o permite, fotografii și legături către sunete. Acest ghid enumeră fiecare câmp și fiecare limită. `schema.json` și `pack.schema.json` sunt regulile exacte; `scripts/validate.py` și pagina le aplică, iar `data/dist/example.json` arată toate câmpurile într-un singur fișier.
 

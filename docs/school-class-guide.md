@@ -1,6 +1,6 @@
 # A school class makes a local pack · VietAR Packs
 
-Version: 0.2.0 · Last updated: 2026-11-17 · [Română](school-class-guide.ro.md)
+Version: 0.2.1 · Last updated: 2026-11-20 · [Română](school-class-guide.ro.md)
 
 This guide is for a teacher or the leader of a nature club. A class makes a pack of the plants, animals and mushrooms of one place near the school (a schoolyard, a park, a stream), learns their names in several languages and learns why a pack is only as good as its sources. No coding is needed: one computer with a browser is enough.
 

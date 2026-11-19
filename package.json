@@ -1,6 +1,6 @@
 {
   "name": "vietar-packs",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "private": true,
   "type": "module",
   "description": "Regional species packs (names in several languages, toxic flag, dangerous look-alikes, licensed photos and sounds) for VietAR: a viewer, a pack creator and checks in one page.",

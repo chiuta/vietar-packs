@@ -1,6 +1,6 @@
 # Ghid pentru contribuitori · VietAR Packs
 
-Versiune: 0.2.0 · Ultima actualizare: 2026-11-17 · [English](contributor-guide.md)
+Versiune: 0.2.1 · Ultima actualizare: 2026-11-20 · [English](contributor-guide.md)
 
 Acest ghid este pentru cei care adaugă sau corectează specii, pachete, fotografii ori sunete în depozit. O clasă sau un club care vrea doar să facă un pachet în pagină poate începe cu `docs/school-class-guide.md`. Formatul exact este în `docs/pack-format.md`; cum devine un pachet «Verificat» se spune în `docs/review-guide.md`.
 

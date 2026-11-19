@@ -1,6 +1,6 @@
 # Review guide · VietAR Packs
 
-Version: 0.2.0 · Last updated: 2026-11-17 · [Română](review-guide.ro.md)
+Version: 0.2.1 · Last updated: 2026-11-20 · [Română](review-guide.ro.md)
 
 This guide is for the person who reviews a pack so that it can be marked “Reviewed”, and for anyone who wants to know what that word promises. The built-in packs are drafts today: no expert has reviewed them, and this guide is how that changes.
 

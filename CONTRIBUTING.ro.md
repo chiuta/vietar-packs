@@ -2,7 +2,7 @@
 
 [English](CONTRIBUTING.md) · **Română** · [Français](CONTRIBUTING.fr.md) · [Italiano](CONTRIBUTING.it.md) · [Español](CONTRIBUTING.es.md) · [Português](CONTRIBUTING.pt.md) · [Deutsch](CONTRIBUTING.de.md) · [Magyar](CONTRIBUTING.hu.md)
 
-Versiune: 0.2.0 · Ultima actualizare: 2026-11-17
+Versiune: 0.2.1 · Ultima actualizare: 2026-11-20
 
 1. Fă un fork al acestui depozit.
 2. Fă sau extinde un pachet: în pagină folosește fila «Creare» și descarcă fișierul, sau scrie de mână fișiere `data/species/<nume-latinesc>.json` (vezi `docs/pack-format.md`).

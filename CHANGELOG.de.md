@@ -6,8 +6,14 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) · [SemVer](htt
 
 ## [Unveröffentlicht]
 
+## [0.2.1] - 2026-11-20
+
 ### Hinzugefügt
 - `scripts/check_licences.mjs --api URL`: ein anderer MediaWiki-Endpunkt statt Commons; der CLI-Test „ohne Netz“ nutzt jetzt einen geschlossenen lokalen Port und hängt nicht mehr davon ab, ob der Rechner Internetzugang hat.
+
+### Geändert
+- fff-kit 1.8.1: Blockiert der Browser den Speicher oder fehlt er (`localStorage`/`sessionStorage` lösen einen Fehler aus oder fehlen), startet die Seite mit einem temporären Arbeitsspeicher, statt anzuhalten; die Daten bleiben nach dem Schließen der Seite nicht erhalten.
+- fff-kit 1.8.1: Die Hilfe, die kleine Bedienelemente auf 44 px vergrößert, misst jetzt auch die Breite des Seitenkörpers und des übergeordneten Elements; eine Schaltflächenreihe kann den Bildschirm also nicht mehr verlassen (die Gruppe bleibt unverändert, wenn die Vergrößerung sie zu breit machen würde).
 
 ## [0.2.0] - 2026-11-17
 

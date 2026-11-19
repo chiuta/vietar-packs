@@ -6,8 +6,14 @@ Formátum: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) · [SemVer](
 
 ## [Kiadatlan]
 
+## [0.2.1] - 2026-11-20
+
 ### Hozzáadva
 - `scripts/check_licences.mjs --api URL`: a Commons helyett másik MediaWiki-végpont; a „hálózat nélküli” CLI-teszt mostantól egy zárt helyi portot használ, így nem függ attól, hogy a gépnek van-e internete.
+
+### Módosítva
+- fff-kit 1.8.1: ha a böngésző blokkolja a tárolást vagy nincs tárolója (a `localStorage`/`sessionStorage` hibát dob vagy hiányzik), az oldal ideiglenes, memóriabeli tárolóval indul ahelyett, hogy leállna; az adatok az oldal bezárása után nem maradnak meg.
+- fff-kit 1.8.1: a kis vezérlőket 44 px-re növelő segéd mostantól az oldal törzsének és a szülőelemnek a szélességét is méri, így a gombsor már nem lóghat ki a képernyőről (a csoport érintetlen marad, ha a növelés túl szélessé tenné).
 
 ## [0.2.0] - 2026-11-17
 

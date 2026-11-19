@@ -1,6 +1,6 @@
 # O clasă de școală face un pachet local · VietAR Packs
 
-Versiune: 0.2.0 · Ultima actualizare: 2026-11-17 · [English](school-class-guide.md)
+Versiune: 0.2.1 · Ultima actualizare: 2026-11-20 · [English](school-class-guide.md)
 
 Acest ghid este pentru un profesor sau conducătorul unui club de natură. O clasă face un pachet cu plantele, animalele și ciupercile unui loc din apropierea școlii (o curte de școală, un parc, un pârâu), învață cum se numesc în mai multe limbi și învață de ce un pachet este bun doar cât sunt de bune sursele lui. Nu e nevoie de programare: ajunge un calculator cu un browser.
 

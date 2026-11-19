@@ -360,7 +360,7 @@ test('căile din README, CONTRIBUTING, ghiduri și șabloane există, iar legăt
 
 test('README, CONTRIBUTING, CHANGELOG și ISSUES_GOOD_FIRST au aceeași versiune și dată în toate cele opt limbi', () => {
   assert.equal(pkg.version, app.version);
-  assert.equal(pkg.version, '0.2.0');
+  assert.equal(pkg.version, '0.2.1');
   assert.equal(app.slug, 'vietar-packs');
   const WORD = {en: ['Version', 'Last updated'], ro: ['Versiune', 'Ultima actualizare']};
   for (const l of LANGS) {
@@ -374,8 +374,8 @@ test('README, CONTRIBUTING, CHANGELOG și ISSUES_GOOD_FIRST au aceeași versiune
     const c = read('CHANGELOG' + sfx(l) + '.md');
     assert.ok(c.includes('## [' + pkg.version + '] - ' + app.updated), 'CHANGELOG' + sfx(l));
     const heads = [...c.matchAll(/^## \[(.+?)\]/gm)].map((m) => m[1]);
-    assert.equal(heads.length, 3, 'CHANGELOG' + sfx(l) + ': ' + heads.join(' | '));
-    assert.deepEqual(heads.slice(1), [pkg.version, '0.1.0'], 'CHANGELOG' + sfx(l) + ': ordinea versiunilor');
+    assert.equal(heads.length, 4, 'CHANGELOG' + sfx(l) + ': ' + heads.join(' | '));
+    assert.deepEqual(heads.slice(1), [pkg.version, '0.2.0', '0.1.0'], 'CHANGELOG' + sfx(l) + ': ordinea versiunilor');
   }
 });
 

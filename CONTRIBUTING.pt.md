@@ -2,7 +2,7 @@
 
 [English](CONTRIBUTING.md) · [Română](CONTRIBUTING.ro.md) · [Français](CONTRIBUTING.fr.md) · [Italiano](CONTRIBUTING.it.md) · [Español](CONTRIBUTING.es.md) · **Português** · [Deutsch](CONTRIBUTING.de.md) · [Magyar](CONTRIBUTING.hu.md)
 
-Versão: 0.2.0 · Última atualização: 2026-11-17
+Versão: 0.2.1 · Última atualização: 2026-11-20
 
 1. Faça um fork deste repositório.
 2. Crie ou alargue um pacote: na página use o separador «Criar» e descarregue o ficheiro, ou escreva à mão ficheiros `data/species/<nome-latino>.json` (veja `docs/pack-format.md`).

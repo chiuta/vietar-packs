@@ -1,7 +1,7 @@
 {
   "slug": "vietar-packs",
-  "version": "0.2.0",
-  "updated": "2026-11-17",
+  "version": "0.2.1",
+  "updated": "2026-11-20",
   "plugins": null,
   "data": "data/dist",
   "files": {
