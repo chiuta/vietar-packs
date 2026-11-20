@@ -9,7 +9,7 @@ jobs:
         with: { node-version: 26 }
       - run: node scripts/pack.mjs --check
       - uses: actions/setup-python@v7
-        with: { python-version: '3.12' }
+        with: { python-version: '3.15' }
       - run: pip install jsonschema pillow
       - run: python scripts/validate.py
       - run: node --test "test/*.test.mjs"
